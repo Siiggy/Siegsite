@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+* body {
+  font-family: ubuntu;
+  margin: 0;
+}
+* body .bodyContainer {
+  display: grid;
+  grid-template-rows: 40vh 60vh;
+  grid-template-columns: 20vw 60vw 20vw;
+  grid-template-areas: "upLeft upCenter upRight" "middleLeft middleCenter middleRight";
+  gap: 0;
+  text-align: center;
+}
+* body .bodyContainer .upLeft {
+  grid-area: upLeft;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #291f1e;
+  color: #291f1e;
+}
+* body .bodyContainer .upCenter {
+  grid-area: upCenter;
+  background-image: url("/images/bank.jpg");
+  background-size: cover;
+  background-position: right top;
+}
+* body .bodyContainer .upRight {
+  grid-area: upRight;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #291f1e;
+  color: #291f1e;
+}
+* body .bodyContainer .middleLeft {
+  grid-area: middleLeft;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #faf8f9;
+  color: #faf8f9;
+}
+* body .bodyContainer .middleCenter {
+  grid-area: middleCenter;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #291f1e;
+  color: #faf8f9;
+}
+* body .bodyContainer .middleCenter a {
+  grid-area: downMiddle;
+  color: #ee7a99;
+  text-decoration: none;
+  padding: 0.25rem;
+}
+* body .bodyContainer .middleRight {
+  grid-area: middleRight;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #faf8f9;
+  color: #faf8f9;
+}
+
+/*# sourceMappingURL=index.css.map */
