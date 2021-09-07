@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+
+	body {
+		font-family: ubuntu;
+		margin: 0;
+		display: flex;
+
+		.bodyContainer {
+			display: flex;
+			flex-direction: column;
+			padding-left: 2rem;
+			padding-top: 1rem;
+
+			.homeContainer {
+				img {
+					height: 1.5rem;
+				}
+				a {
+					font-size: 1.5rem;
+					font-weight: 600;
+					text-decoration: none;
+					color: #ce0f69;
+				}
+			}
+
+			.contentContainer {
+				margin: 0 15vw;
+				align-items: center;
+				font-size: 0.9rem;
+
+				.imageContainer {
+					img {
+						display: flex;
+						width: 20vw;
+						margin: 2rem auto;
+						align-items: center;
+					}
+				}
+			}
+		}
+	}
+}

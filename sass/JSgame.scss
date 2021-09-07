@@ -1,0 +1,36 @@
+body {
+	font-family: ubuntu;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+
+	.headerContainer {
+		display: flex;
+		flex-direction: column;
+		padding-left: 2rem;
+		padding-top: 1rem;
+
+		img {
+			height: 1.5rem;
+		}
+
+		a {
+			font-size: 1.5rem;
+			font-weight: 600;
+			text-decoration: none;
+			color: #ce0f69;
+		}
+	}
+
+	#shape {
+		width: 200px;
+		height: 200px;
+		background-color: red;
+		display: none;
+		position: relative;
+	}
+
+	.bold {
+		font-weight: bold;
+	}
+}

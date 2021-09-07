@@ -1,0 +1,33 @@
+body {
+  font-family: ubuntu;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+body .headerContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+body .headerContainer img {
+  height: 1.5rem;
+}
+body .headerContainer a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #ce0f69;
+}
+body #shape {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  display: none;
+  position: relative;
+}
+body .bold {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=JSgame.css.map */
