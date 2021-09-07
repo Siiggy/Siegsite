@@ -24,8 +24,8 @@
 * body .bodyContainer .tooltipText {
   visibility: hidden;
   position: relative;
-  top: 4rem;
-  right: 6rem;
+  top: 2rem;
+  right: 4rem;
   font-weight: bold;
   text-decoration: none;
 }
@@ -44,7 +44,7 @@
   justify-content: center;
   background-color: #291f1e;
   color: #faf8f9;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 * body .bodyContainer .upLeft a {
   grid-area: downMiddle;
@@ -67,16 +67,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: #291f1e;
-  color: #291f1e;
+  color: #faf8f9;
+}
+* body .bodyContainer .upRight img {
+  width: 60%;
+  filter: grayscale(1);
 }
 * body .bodyContainer .middleLeft {
   grid-area: middleLeft;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: #faf8f9;
-  color: #faf8f9;
+  color: #291f1e;
+}
+* body .bodyContainer .middleLeft img {
+  width: 60%;
+  filter: grayscale(1);
 }
 * body .bodyContainer .middleCenter {
   grid-area: middleCenter;
@@ -100,8 +110,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: #faf8f9;
-  color: #faf8f9;
+  color: #291f1e;
+}
+* body .bodyContainer .middleRight img {
+  width: 60%;
+  filter: grayscale(1);
 }
 @keyframes flip-tile {
   0% {
