@@ -24,8 +24,20 @@
 				}
 			}
 
-			.row2 {
-				background-color: #ce0f69;
+			.transformContainer {
+				display: flex;
+				margin-top: 2rem;
+				background-color: #291f1e;
+				height: 12rem;
+				.transform {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					background-color: #9bf6ff;
+					color: #291f1e;
+					height: 5rem;
+					width: 5rem;
+				}
 			}
 
 			.row3 {
@@ -33,7 +45,7 @@
 			}
 
 			.row4 {
-				background-color: yellow;
+				background-color: grey;
 			}
 		}
 	}
