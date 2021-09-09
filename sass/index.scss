@@ -61,6 +61,7 @@
 					text-decoration: none;
 					font-weight: bold;
 					padding: 0.25rem;
+
 					&:hover {
 						color: #ee7a99;
 					}
@@ -69,7 +70,7 @@
 
 			.upCenter {
 				grid-area: upCenter;
-				background-image: url("/images/bank.jpg");
+				background-image: url("media/images/bank.jpg");
 				background-size: cover;
 				background-position: right top;
 			}
@@ -82,6 +83,7 @@
 				justify-content: center;
 				background-color: #291f1e;
 				color: #faf8f9;
+
 				img {
 					width: 60%;
 					filter: grayscale(1);
@@ -96,6 +98,7 @@
 				justify-content: center;
 				background-color: #faf8f9;
 				color: #291f1e;
+
 				img {
 					width: 60%;
 					filter: grayscale(1);
@@ -115,6 +118,7 @@
 					color: #ee7a99;
 					text-decoration: none;
 					padding: 0.25rem;
+
 					&:hover {
 						color: #faf8f9;
 					}
@@ -129,6 +133,7 @@
 				justify-content: center;
 				background-color: #faf8f9;
 				color: #291f1e;
+
 				img {
 					width: 60%;
 					filter: grayscale(1);
@@ -168,6 +173,7 @@
 			0% {
 				transform: rotateY(0);
 			}
+
 			// 50% {
 			// 	transform: rotateY(270deg);
 			// }
