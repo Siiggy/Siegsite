@@ -58,7 +58,7 @@
 }
 * body .bodyContainer .upCenter {
   grid-area: upCenter;
-  background-image: url("media/images/bank.jpg");
+  background-image: url("/media/images/bank.jpg");
   background-size: cover;
   background-position: right top;
 }
