@@ -4,19 +4,36 @@
 	body {
 		font-family: ubuntu;
 		margin: 0;
-		display: flex;
+		display: grid;
+		grid-template-rows: 4fr;
 
 		.bodyContainer {
 			.homeContainer {
+				padding-left: 2rem;
+				padding-top: 1rem;
+
 				img {
 					height: 1.5rem;
 				}
+
 				a {
 					font-size: 1.5rem;
 					font-weight: 600;
 					text-decoration: none;
 					color: #ce0f69;
 				}
+			}
+
+			.row2 {
+				background-color: #ce0f69;
+			}
+
+			.row3 {
+				background: yellow;
+			}
+
+			.row4 {
+				background-color: blue;
 			}
 		}
 	}

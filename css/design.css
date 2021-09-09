@@ -4,7 +4,12 @@
 * body {
   font-family: ubuntu;
   margin: 0;
-  display: flex;
+  display: grid;
+  grid-template-rows: 4fr;
+}
+* body .bodyContainer .homeContainer {
+  padding-left: 2rem;
+  padding-top: 1rem;
 }
 * body .bodyContainer .homeContainer img {
   height: 1.5rem;
@@ -14,6 +19,15 @@
   font-weight: 600;
   text-decoration: none;
   color: #ce0f69;
+}
+* body .bodyContainer .row2 {
+  background-color: #ce0f69;
+}
+* body .bodyContainer .row3 {
+  background: yellow;
+}
+* body .bodyContainer .row4 {
+  background-color: blue;
 }
 
 /*# sourceMappingURL=design.css.map */
