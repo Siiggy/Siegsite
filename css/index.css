@@ -33,6 +33,7 @@
   animation: flip-tile 2s ease-out forwards;
 }
 * body .bodyContainer .link {
+  margin-top: 1rem;
   font-style: italic;
 }
 * body .bodyContainer .upLeft {

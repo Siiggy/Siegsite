@@ -6,9 +6,6 @@
   margin: 0;
   display: flex;
 }
-* body .bodyContainer {
-  background-color: pink;
-}
 * body .bodyContainer .homeContainer img {
   height: 1.5rem;
 }
