@@ -1,0 +1,103 @@
+html {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  display: flex;
+}
+body .bodyContainer {
+  display: flex;
+  flex-direction: column;
+}
+body .bodyContainer .home {
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+body .bodyContainer .home img {
+  height: 1.5rem;
+}
+body .bodyContainer .home a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #ce0f69;
+}
+body .bodyContainer .contentContainer {
+  align-items: center;
+  justify-content: center;
+  margin: 0 15vw;
+}
+body .bodyContainer .contentContainer h2 {
+  font-size: 1.25rem;
+  margin: 1rem 0.5rem;
+  color: #faf8f9;
+}
+body .bodyContainer .contentContainer progress {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 80%;
+  height: 2rem;
+  color: #ce0f69;
+  border: 1px solid #faf8f9;
+  border-radius: 3px;
+}
+body .bodyContainer .contentContainer progress[value]::-webkit-progress-bar,
+body .bodyContainer .contentContainer progress[value] {
+  background-color: #faf8f9;
+}
+body .bodyContainer .contentContainer progress[value]::-webkit-progress-value {
+  background-color: #4461ee;
+  transition: all 0.2s ease-out;
+}
+body .bodyContainer .contentContainer progress[value]::-moz-progress-bar {
+  background-color: #ee7a99;
+  transition: all 0.2s ease-out;
+}
+body .bodyContainer .contentContainer button {
+  font: inherit;
+  background: #ce0f69;
+  border: 1px solid #ce0f69;
+  border-radius: 6px;
+  color: #faf8f9;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+body .bodyContainer .contentContainer button:focus {
+  outline: none;
+}
+body .bodyContainer .contentContainer button:hover,
+body .bodyContainer .contentContainer button:active {
+  background: #ee7a99;
+  border-color: #ee7a99;
+}
+body .bodyContainer .contentContainer #health-levels,
+body .bodyContainer .contentContainer #controls {
+  margin: 3rem 0 1rem;
+  width: 65vw;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  background-color: #291f1e;
+}
+body .bodyContainer .contentContainer #controls {
+  display: flex;
+  flex-direction: column;
+}
+body .bodyContainer .contentContainer #bonus-life {
+  font-weight: bold;
+  color: faf8f9;
+  background: #ee7a99;
+  border: 1px solid #ee7a99;
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 0.5rem;
+}
+
+/*# sourceMappingURL=jsMonster.css.map */

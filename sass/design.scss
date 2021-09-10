@@ -34,7 +34,7 @@
 					display: flex;
 					align-items: center;
 					justify-content: center;
-					background-color: #9bf6ff;
+					background-color: #4461ee;
 					color: #291f1e;
 					height: 5rem;
 					width: 5rem;
@@ -47,7 +47,6 @@
 				width: 100%;
 				position: relative;
 				z-index: 1;
-
 
 				.snippet1 {
 					display: grid;
@@ -84,14 +83,13 @@
 					margin-left: 1300px;
 				}
 
-
 				.filter {
 					height: 700px;
 					width: 100%;
-					background: #B5189F;
-					background: -webkit-linear-gradient(top left, #B5189F, #4461EE);
-					background: -moz-linear-gradient(top left, #B5189F, #4461EE);
-					background: linear-gradient(to bottom right, #B5189F, #4461EE);
+					background: #b5189f;
+					background: -webkit-linear-gradient(top left, #b5189f, #4461ee);
+					background: -moz-linear-gradient(top left, #b5189f, #4461ee);
+					background: linear-gradient(to bottom right, #b5189f, #4461ee);
 					position: absolute;
 					z-index: 2;
 					opacity: 0.7;

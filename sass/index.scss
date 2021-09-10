@@ -36,11 +36,10 @@
 			}
 
 			.tile:hover {
-				animation: flip-tile 2s ease-out forwards;
+				animation: flipTile-hor 2s ease-in-out;
 			}
 
 			.link {
-				margin-top: 1rem;
 				font-style: italic;
 			}
 
@@ -49,7 +48,7 @@
 				display: flex;
 				flex-direction: column;
 				align-items: center;
-				justify-content: center;
+				justify-content: space-evenly;
 				background-color: #291f1e;
 				color: #faf8f9;
 				font-size: 0.9rem;
@@ -83,10 +82,18 @@
 				justify-content: center;
 				background-color: #291f1e;
 				color: #faf8f9;
+				font-size: 0.9rem;
 
-				img {
-					width: 60%;
-					filter: grayscale(1);
+				a {
+					grid-area: downMiddle;
+					color: #faf8f9;
+					text-decoration: none;
+					font-weight: bold;
+					padding: 0.25rem;
+
+					&:hover {
+						color: #ee7a99;
+					}
 				}
 			}
 
@@ -95,7 +102,7 @@
 				display: flex;
 				flex-direction: column;
 				align-items: center;
-				justify-content: center;
+				justify-content: space-evenly;
 				background-color: #faf8f9;
 				color: #291f1e;
 
@@ -113,14 +120,19 @@
 				background-color: #291f1e;
 				color: #faf8f9;
 
-				a {
-					grid-area: downMiddle;
-					color: #ee7a99;
-					text-decoration: none;
-					padding: 0.25rem;
+				.middelCenterContent {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					margin: 1rem 0;
+					a {
+						color: #ee7a99;
+						text-decoration: none;
+						padding: 0.25rem;
 
-					&:hover {
-						color: #faf8f9;
+						&:hover {
+							color: #faf8f9;
+						}
 					}
 				}
 			}
@@ -169,11 +181,10 @@
 			// }
 		}
 
-		@keyframes flip-tile {
+		@keyframes flipTile-hor {
 			0% {
 				transform: rotateY(0);
 			}
-
 			// 50% {
 			// 	transform: rotateY(270deg);
 			// }
