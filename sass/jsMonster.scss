@@ -13,8 +13,12 @@ body {
 		flex-direction: column;
 
 		.home {
-			padding-left: 2rem;
-			padding-top: 1rem;
+			margin-left: 2rem;
+			margin-top: 1rem;
+			width: 7rem;
+			background-color: transparent;
+			border: none;
+			cursor: pointer;
 
 			img {
 				height: 1.5rem;

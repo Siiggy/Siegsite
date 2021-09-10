@@ -11,15 +11,22 @@ body {
 		padding-top: 1rem;
 		color: #291f1e;
 
-		img {
-			height: 1.5rem;
-		}
+		.home {
+			width: 7rem;
+			background-color: transparent;
+			border: none;
+			cursor: pointer;
 
-		a {
-			font-size: 1.5rem;
-			font-weight: 600;
-			text-decoration: none;
-			color: #ce0f69;
+			img {
+				height: 1.5rem;
+			}
+
+			a {
+				font-size: 1.5rem;
+				font-weight: 600;
+				text-decoration: none;
+				color: #ce0f69;
+			}
 		}
 	}
 

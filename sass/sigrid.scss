@@ -10,9 +10,13 @@
 			display: flex;
 			flex-direction: column;
 
-			.homeContainer {
-				padding-left: 2rem;
-				padding-top: 1rem;
+			.home {
+				margin-left: 2rem;
+				margin-top: 1rem;
+				width: 7rem;
+				background-color: transparent;
+				border: none;
+				cursor: pointer;
 				img {
 					height: 1.5rem;
 				}

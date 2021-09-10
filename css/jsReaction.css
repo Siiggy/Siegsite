@@ -11,10 +11,16 @@ body .headerContainer {
   padding-top: 1rem;
   color: #291f1e;
 }
-body .headerContainer img {
+body .headerContainer .home {
+  width: 7rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+body .headerContainer .home img {
   height: 1.5rem;
 }
-body .headerContainer a {
+body .headerContainer .home a {
   font-size: 1.5rem;
   font-weight: 600;
   text-decoration: none;
