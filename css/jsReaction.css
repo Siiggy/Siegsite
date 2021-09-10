@@ -9,6 +9,7 @@ body .headerContainer {
   flex-direction: column;
   padding-left: 2rem;
   padding-top: 1rem;
+  color: #291f1e;
 }
 body .headerContainer img {
   height: 1.5rem;

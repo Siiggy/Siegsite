@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Unconventional Calculator</title>
+		<link rel="icon" type="image/png" href="media/images/beeldmerk.svg" />
+		<link href="css/jsCalculator.css" rel="stylesheet" />
+		<script src="scripts/vendorCalculator.js" defer></script>
+		<script src="scripts/appCalculator.js" defer></script>
+	</head>
+	<body>
+		<div class="bodyContainer">
+			<div class="headerContainer">
+				<div class="home">
+					<img src="media/images/beeldmerk.svg" href="index.html" />
+					<a href="index.html">Home</a>
+				</div>
+				<h1>The Unconventional Calculator</h1>
+			</div>
+			<div class="contentContainer">
+				<section id="calculator">
+					<input type="number" id="input-number" />
+					<div id="calc-actions">
+						<button type="button" id="btn-add">+</button>
+						<button type="button" id="btn-subtract">-</button>
+						<button type="button" id="btn-multiply">*</button>
+						<button type="button" id="btn-divide">/</button>
+					</div>
+				</section>
+				<section id="results">
+					<h2 id="current-calculation">0</h2>
+					<h2>Result: <span id="current-result">0</span></h2>
+				</section>
+			</div>
+		</div>
+	</body>
+</html>
