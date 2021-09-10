@@ -103,11 +103,14 @@
   color: #faf8f9;
   font-size: 0.9rem;
 }
+* body .bodyContainer .middleCenter h1 {
+  margin-bottom: 2rem;
+}
 * body .bodyContainer .middleCenter .middelCenterContent {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0.5rem 0;
+  margin: 1rem 0;
 }
 * body .bodyContainer .middleCenter .middelCenterContent a {
   color: #ee7a99;

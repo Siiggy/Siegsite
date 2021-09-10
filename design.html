@@ -88,14 +88,25 @@ stylen in CSS volgens algemene CSS language:
 </code>
 </pre>
 				</div>
-
 				<div class="filter"></div>
 				<video autoplay loop muted>
 					<source src="/Media/videos/Ristar-video.mp4" />
 				</video>
 			</div>
-
 			<div class="row4">row 4</div>
 		</div>
+		<script>
+			const elements = document.getElementsByClassName("transform");
+
+			for (let i = 0; i <= elements.length; i++) {
+				elements[i].addEventListener("animationend", function (e) {
+					elements[i].classList.remove("animated");
+				});
+
+				elements[i].addEventListener("mouseover", function (e) {
+					elements[i].classList.add("animated");
+				});
+			}
+		</script>
 	</body>
 </html>

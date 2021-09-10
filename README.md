@@ -19,3 +19,4 @@ _To Do_
 
 - Uitleg op JS pagina's
 - Uitleg pagina's voor website projecten ipv meteen naar de sites gaan
+- Redesign Sigrid.html
