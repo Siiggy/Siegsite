@@ -29,9 +29,6 @@
   font-weight: bold;
   text-decoration: none;
 }
-* body .bodyContainer .tile:hover {
-  animation: flipTile-hor 2s ease-in-out forwards;
-}
 * body .bodyContainer .link {
   font-style: italic;
 }

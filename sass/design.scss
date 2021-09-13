@@ -8,19 +8,29 @@
 		.bodyContainer {
 			display: grid;
 
-			.homeContainer {
+			.headerContainer {
+				display: flex;
+				flex-direction: column;
 				padding-left: 2rem;
 				padding-top: 1rem;
+				color: #291f1e;
 
-				img {
-					height: 1.5rem;
-				}
+				.home {
+					width: 7rem;
+					background-color: transparent;
+					border: none;
+					cursor: pointer;
 
-				a {
-					font-size: 1.5rem;
-					font-weight: 600;
-					text-decoration: none;
-					color: #ce0f69;
+					img {
+						height: 1.5rem;
+					}
+
+					a {
+						font-size: 1.5rem;
+						font-weight: 600;
+						text-decoration: none;
+						color: #ce0f69;
+					}
 				}
 			}
 
@@ -39,6 +49,7 @@
 					color: #faf8f9;
 					height: 5rem;
 					width: 5rem;
+					font-size: 0.9rem;
 					cursor: pointer;
 				}
 
@@ -49,35 +60,28 @@
 				}
 
 				@keyframes transformMe {
-					// beginstand
 					0% {
 						transform: translateY(0);
 					}
-					// circle -> beneden
 					10% {
 						transform: translateY(5rem);
 						background-color: #ce0f69;
 						color: #faf8f9;
 						border-radius: 50%;
 					}
-					// circle + beneden -> links
 					22% {
-						transform: translateY(5rem) translateX(10rem) scale(200%);
+						transform: translateY(5rem) translateX(10rem) scale(225%);
 						background-color: #ce0f69;
 						color: #faf8f9;
 						border-radius: 50%;
 					}
-					// beneden/links -> blauw + meer naar links
 					32% {
 						transform: translateY(2rem) translateX(25rem) scale(50%);
-						background-color: #ce0f69;
 						color: #faf8f9;
 						border-radius: 50%;
 					}
-					// beneden/links/blauw -> rotate
 					45% {
 						transform: translateY(2rem) translateX(25rem) rotateZ(45deg);
-						background-color: #4461ee;
 						color: #faf8f9;
 						border-radius: 0;
 					}
@@ -187,7 +191,12 @@
 			}
 
 			.row4 {
-				background-color: grey;
+				height: 2rem;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: #caffbf;
+				color: 291f1e;
 			}
 		}
 	}

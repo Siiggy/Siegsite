@@ -8,14 +8,23 @@
 * body .bodyContainer {
   display: grid;
 }
-* body .bodyContainer .homeContainer {
+* body .bodyContainer .headerContainer {
+  display: flex;
+  flex-direction: column;
   padding-left: 2rem;
   padding-top: 1rem;
+  color: #291f1e;
 }
-* body .bodyContainer .homeContainer img {
+* body .bodyContainer .headerContainer .home {
+  width: 7rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+* body .bodyContainer .headerContainer .home img {
   height: 1.5rem;
 }
-* body .bodyContainer .homeContainer a {
+* body .bodyContainer .headerContainer .home a {
   font-size: 1.5rem;
   font-weight: 600;
   text-decoration: none;
@@ -36,6 +45,7 @@
   color: #faf8f9;
   height: 5rem;
   width: 5rem;
+  font-size: 0.9rem;
   cursor: pointer;
 }
 * body .bodyContainer .transformContainer .animated {
@@ -54,20 +64,18 @@
     border-radius: 50%;
   }
   22% {
-    transform: translateY(5rem) translateX(10rem) scale(200%);
+    transform: translateY(5rem) translateX(10rem) scale(225%);
     background-color: #ce0f69;
     color: #faf8f9;
     border-radius: 50%;
   }
   32% {
     transform: translateY(2rem) translateX(25rem) scale(50%);
-    background-color: #ce0f69;
     color: #faf8f9;
     border-radius: 50%;
   }
   45% {
     transform: translateY(2rem) translateX(25rem) rotateZ(45deg);
-    background-color: #4461ee;
     color: #faf8f9;
     border-radius: 0;
   }
@@ -165,7 +173,12 @@
   width: 100%;
 }
 * body .bodyContainer .row4 {
-  background-color: grey;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #caffbf;
+  color: 291f1e;
 }
 
 /*# sourceMappingURL=design.css.map */
