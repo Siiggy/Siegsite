@@ -9,14 +9,12 @@ _Starting the sass watcher:_ **sass --watch sass:css**
 
 **@siggy**
 
-- Doordat de watcher bestanden omzet van CASS naar CSS en SCSS zul je dus voor elke aanpassing 3 changes (en conflicten) krijgen in elk van die voorgenoemde files, houdt hier rekening mee als je merge conflicts krijgt :wink:
-
 **@wesley**
-
-- Ik heb geen conflicten gekregen, ik denk dat dat is omdat ik niet tegelijker met jou in die bestanden aan het werk was.
 
 _To Do_
 
+- Shared css file en aparte files voor de div's op de design-page
+- Nieuwe transform met tekst transform opacity in de animation
 - Uitleg op JS pagina's
 - Uitleg pagina's voor website projecten ipv meteen naar de sites gaan
 - Redesign Sigrid.html

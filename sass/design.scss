@@ -7,6 +7,7 @@
 
 		.bodyContainer {
 			display: grid;
+			width: 100%;
 
 			.headerContainer {
 				display: flex;
@@ -38,7 +39,7 @@
 				display: flex;
 				margin-top: 1rem;
 				background-color: #291f1e;
-				height: 15rem;
+				height: 25rem;
 
 				.transform {
 					display: flex;
@@ -125,58 +126,38 @@
 			}
 
 			.videoContainer {
-				display: grid;
-				height: 700px;
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				height: 25rem;
 				width: 100%;
 				position: relative;
 				z-index: 1;
 
-				.snippet1 {
-					display: grid;
-					background-color: #140439;
-					border-radius: 25px;
-					position: absolute;
-					z-index: 3;
-					color: blanchedalmond;
-					padding: 25px;
-					margin: 25px;
+				h2,
+				p {
+					display: flex;
+					padding: 1.5rem;
+					z-index: 4;
+					background-color: #291f1e;
+					opacity: 0.85;
+					color: #faf8f9;
+					border-radius: 1rem;
+					margin: 2rem;
 				}
 
-				.snippet2 {
-					display: grid;
-					background-color: #140439;
-					border-radius: 25px;
-					position: absolute;
-					z-index: 3;
-					color: blanchedalmond;
-					padding: 25px;
-					margin: 25px;
-					margin-left: 675px;
+				#videoH {
+					padding: 2rem 1.5rem 2rem 1.5rem;
+					margin-bottom: 0rem;
 				}
 
-				.snippet3 {
-					display: grid;
-					background-color: #140439;
-					border-radius: 25px;
-					position: absolute;
-					z-index: 3;
-					color: blanchedalmond;
-					padding: 25px;
-					margin: 25px;
-					margin-left: 1300px;
-				}
-
-				.filter {
-					height: 700px;
+				.videoFilter {
+					height: 25rem;
 					width: 100%;
 					background: #ce0f69;
 					background: -webkit-linear-gradient(top left, #ce0f69, #4461ee);
 					background: -moz-linear-gradient(top left, #ce0f69, #4461ee);
 					background: linear-gradient(to bottom right, #ce0f69, #4461ee);
-					// background: #b5189f;
-					// background: -webkit-linear-gradient(top left, #b5189f, #4461ee);
-					// background: -moz-linear-gradient(top left, #b5189f, #4461ee);
-					// background: linear-gradient(to bottom right, #b5189f, #4461ee);
 					position: absolute;
 					z-index: 2;
 					opacity: 0.7;
@@ -185,7 +166,7 @@
 				video {
 					position: absolute;
 					object-fit: cover;
-					height: 700px;
+					height: 25rem;
 					width: 100%;
 				}
 			}

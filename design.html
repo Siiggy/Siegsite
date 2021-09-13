@@ -23,75 +23,9 @@
 			</div>
 
 			<div class="videoContainer">
-				<div class="snippet1">
-					<pre>
-<code>
-Als eerst wordt de video geladen via het HTML document van deze pagina. 
-Dit gebeurd via de volgende syntax:
-
-&lt;video autoplay loop muted&gt;
-	&lt;source src=&quot;/Media/videos/Ristar-video.mp4&quot;&gt;
-&lt;/video&gt;
-
-In de volgende snippet zien we hoe deze via Sass CSS opgezet en gestyled wordt.
-</code>
-</pre>
-				</div>
-
-				<div class="snippet2">
-					<pre>
-<code>
-.videoContainer {
-	height: 700px;
-	width: 100%;
-	position: relative;
-	z-index: 1;
-
-.filter {
-	height: 700px;
-	width: 100%;
-	background: #B5189F;
-	background: -webkit-linear-gradient(top left, #B5189F, #4461EE);
-	background: -moz-linear-gradient(top left, #B5189F, #4461EE);
-	background: linear-gradient(to bottom right, #B5189F, #4461EE);
-	position: absolute;
-	z-index: 2;
-	opacity: 0.7;
-}
-
-video {
-	position: absolute;
-	object-fit: cover;
-	height: 700px;
-	width: 100%;
-}
-}
-</code>
-</pre>
-				</div>
-
-				<div class="snippet3">
-					<pre>
-<code>
-Alle syntaxes tussen de &lt;pre&gt; &amp; &lt;code&gt; tags worden
-weergegeven in een textveld met dezelfde spacing als in VS
-zoals je in voorgaande snippets ziet, je kunt deze daarna
-stylen in CSS volgens algemene CSS language:
-
-.snippet1 {
-	display: flex;
-	background-color: #140439;
-	border-radius: 25px;
-	position: absolute;
-	z-index: 3;
-	color: blanchedalmond;
-	padding: 25px;
-	margin: 25px;
-}
-</code>
-</pre>
-				</div>
-				<div class="filter"></div>
+				<h2 id="videoH">Video Background</h2>
+				<p>This Video background has been produced in HTML and Sass.</p>
+				<div class="videoFilter"></div>
 				<video autoplay loop muted>
 					<source src="/Media/videos/Ristar-video.mp4" />
 				</video>
