@@ -8,26 +8,39 @@
 		.bodyContainer {
 			display: grid;
 			width: 100%;
+			// background-color: #faf8f9;
 
-			.headerContainer {
+			.header {
+				height: 5rem;
 				display: flex;
-				flex-direction: column;
-				padding-left: 2.5rem;
-				color: #291f1e;
+				justify-content: center;
+				align-items: center;
+				color: #faf8f9;
+				background-color: #ce0f69;
+				// background: linear-gradient(#ffffff, #faf8f9, #faf8f9, #ce0f69);
+				font-size: 1.65rem;
+				font-weight: bold;
 			}
 
 			.transformContainer {
 				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
 				background-color: #291f1e;
 				height: 15rem;
+				p {
+					color: #caffbf;
+					opacity: 0.85;
+					margin-left: 0.25rem;
+				}
 
 				.transform {
 					display: flex;
 					align-items: center;
 					justify-content: center;
 					text-align: center;
-					background-color: #ce0f69;
-					color: #faf8f9;
+					background-color: #caffbf;
+					color: #291f1e;
 					height: 5rem;
 					width: 5rem;
 					font-size: 0.9rem;
@@ -46,14 +59,14 @@
 					}
 					10% {
 						transform: translateY(5rem);
-						background-color: #ce0f69;
-						color: #faf8f9;
+						background-color: #caffbf;
+						color: #291f1e;
 						border-radius: 50%;
 					}
 					22% {
 						transform: translateY(5rem) translateX(25vw) scale(225%);
-						background-color: #ce0f69;
-						color: #faf8f9;
+						background-color: #caffbf;
+						color: #291f1e;
 						border-radius: 50%;
 					}
 					32% {
@@ -151,7 +164,7 @@
 				}
 			}
 
-			.row4 {
+			.footer {
 				height: 10rem;
 				display: flex;
 				justify-content: center;
