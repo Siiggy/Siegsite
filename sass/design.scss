@@ -13,13 +13,11 @@
 				display: flex;
 				flex-direction: column;
 				padding-left: 2.5rem;
-				padding-top: 1rem;
 				color: #291f1e;
 			}
 
 			.transformContainer {
 				display: flex;
-				margin-top: 1rem;
 				background-color: #291f1e;
 				height: 15rem;
 
@@ -53,53 +51,53 @@
 						border-radius: 50%;
 					}
 					22% {
-						transform: translateY(5rem) translateX(10rem) scale(225%);
+						transform: translateY(5rem) translateX(25vw) scale(225%);
 						background-color: #ce0f69;
 						color: #faf8f9;
 						border-radius: 50%;
 					}
 					32% {
-						transform: translateY(2rem) translateX(25rem) scale(50%);
+						transform: translateY(2rem) translateX(65vw) scale(50%);
 						color: #faf8f9;
 						border-radius: 50%;
 					}
 					45% {
-						transform: translateY(2rem) translateX(25rem) rotateZ(45deg);
+						transform: translateY(2rem) translateX(65vw) rotateZ(45deg);
 						color: #faf8f9;
 						border-radius: 0;
 					}
 					55% {
-						transform: translateY(9rem) translateX(25rem) rotateZ(45deg);
+						transform: translateY(9rem) translateX(65vw) rotateZ(45deg);
 						background-color: #4461ee;
 						color: #faf8f9;
 						border-radius: 0;
 					}
 					66% {
-						transform: translateY(10rem) translateX(25rem);
+						transform: translateY(10rem) translateX(65vw);
 						background-color: #4461ee;
 						color: #faf8f9;
 						border-radius: 0;
 					}
 					73% {
-						transform: translateY(10rem) translateX(25rem) skew(20deg, 0);
+						transform: translateY(10rem) translateX(65vw) skew(20deg, 0);
 						background-color: #4461ee;
 						color: #faf8f9;
 						border-radius: 0;
 					}
 					80% {
-						transform: translateY(10rem) translateX(25rem) skew(-20deg, 0);
+						transform: translateY(10rem) translateX(65vw) skew(-20deg, 0);
 						background-color: #4461ee;
 						color: #faf8f9;
 						border-radius: 0;
 					}
 					90% {
-						transform: translateY(10rem) translateX(25rem);
+						transform: translateY(10rem) translateX(65vw);
 						background-color: #291f1e;
 						color: #faf8f9;
 						border-radius: 50%;
 					}
 					100% {
-						transform: translateY(12rem) translateX(25rem);
+						transform: translateY(12rem) translateX(65vw);
 						background-color: #291f1e;
 						color: #291f1e;
 						border-radius: 50%;
