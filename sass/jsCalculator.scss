@@ -3,34 +3,14 @@
 	body {
 		font-family: "Ubuntu", sans-serif;
 		margin: 0;
-		width: 100vw;
-		height: 100vh;
 
 		.bodyContainer {
 			.headerContainer {
 				display: flex;
 				flex-direction: column;
-				padding-left: 2rem;
+				padding-left: 2.5rem;
 				padding-top: 1rem;
 				color: #291f1e;
-
-				.home {
-					width: 7rem;
-					background-color: transparent;
-					border: none;
-					cursor: pointer;
-
-					img {
-						height: 1.5rem;
-					}
-
-					a {
-						font-size: 1.5rem;
-						font-weight: 600;
-						text-decoration: none;
-						color: #ce0f69;
-					}
-				}
 			}
 			#results,
 			#calculator {

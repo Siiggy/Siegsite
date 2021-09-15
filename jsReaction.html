@@ -5,25 +5,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Reaction Timer</title>
 		<link rel="icon" type="image/png" href="media/images/beeldmerk.svg" />
+		<link href="css/shared.css" rel="stylesheet" />
 		<link href="css/jsReaction.css" rel="stylesheet" />
 	</head>
 
 	<body>
-		<div class="headerContainer">
+		<div class="bodyContainer">
 			<button class="home">
 				<img src="media/images/beeldmerk.svg" href="index.html" />
 				<a href="index.html">Home</a>
 			</button>
-			<h1>Test your reactions!</h1>
+			<div class="headerContainer">
+				<h1>Test your reactions!</h1>
 
-			<p>Click on the boxes and circles as quickly as you can!</p>
+				<p>Click on the boxes and circles as quickly as you can!</p>
 
-			<p>Your time: <span id="timeTaken"></span></p>
+				<p>Your time: <span id="timeTaken"></span></p>
 
-			<p class="bold">Your fastest time is: <span id="bestTime"></span></p>
+				<p class="bold">Your fastest time is: <span id="bestTime"></span></p>
+			</div>
+			<div id="shape"></div>
 		</div>
-		<div id="shape"></div>
-
 		<script type="text/javascript">
 			var bestTime = 0;
 			var start = new Date().getTime();

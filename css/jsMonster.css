@@ -12,23 +12,6 @@ body .bodyContainer {
   display: flex;
   flex-direction: column;
 }
-body .bodyContainer .home {
-  margin-left: 2rem;
-  margin-top: 1rem;
-  width: 7rem;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
-body .bodyContainer .home img {
-  height: 1.5rem;
-}
-body .bodyContainer .home a {
-  font-size: 1.5rem;
-  font-weight: 600;
-  text-decoration: none;
-  color: #ce0f69;
-}
 body .bodyContainer .contentContainer {
   align-items: center;
   justify-content: center;
