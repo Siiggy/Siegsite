@@ -10,41 +10,20 @@
 			grid-template-rows: auto;
 			grid-template-columns: 20vw 80vw;
 			grid-template-areas:
-				"upLeft upCenter"
-				"middleLeft middleCenter"
-				"downLeft downCenter";
+				"leftOne rightOne"
+				"leftTwo rightTwo"
+				"leftThree rightThree"
+				"leftFour rightFour"
+				"leftFive rightFive";
 			gap: 0;
 			text-align: center;
-
-			.tooltip:hover .tooltipText {
-				visibility: visible;
-				color: #0d0e10;
-				margin: 1rem;
-
-				&:hover {
-					color: #444c5a;
-				}
-			}
-
-			.tooltipText {
-				visibility: hidden;
-				position: relative;
-				top: 2rem;
-				left: 4rem;
-				font-weight: bold;
-				text-decoration: none;
-			}
-
-			// .tile:hover {
-			// 	animation: flipTile-hor 2s ease-in-out forwards;
-			// }
 
 			.link {
 				font-style: italic;
 			}
 
-			.upLeft {
-				grid-area: upLeft;
+			.programming {
+				grid-area: leftOne;
 				display: flex;
 				flex-direction: column;
 				align-items: center;
@@ -60,7 +39,6 @@
 					a {
 						font-size: 1.25rem;
 					}
-					margin-bottom: 2rem;
 				}
 
 				p {
@@ -68,92 +46,121 @@
 				}
 			}
 
-			.upCenter {
-				grid-area: upCenter;
-				background-image: url("/media/images/Zwart\ closeup\ kleiner \web.jpg");
+			.foto1 {
+				grid-area: rightOne;
+				background-image: url("/media/images/sigrid1.jpg");
 				background-size: cover;
 				background-position: center top;
 			}
 
-			.upRight {
-				grid-area: upRight;
+			.referentie {
+				grid-area: leftTwo;
+				display: flex;
 				display: flex;
 				flex-direction: column;
 				align-items: center;
-				justify-content: space-between;
-				color: #0d0e10;
-				background-color: #f1f0f6;
-				font-size: 0.7rem;
-			}
-
-			.middleLeft {
-				grid-area: middleLeft;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: flex-start;
-				font-size: 0.65rem;
+				justify-content: center;
+				align-content: center;
 				color: #bdc6e5;
 				background-color: #0d0e10;
+				font-size: 0.65rem;
+				p {
+					font-style: italic;
+					padding: 0.25rem;
+				}
 			}
 
-			.middleCenter {
-				grid-area: middleCenter;
+			.rijmpje {
+				grid-area: rightTwo;
 				display: flex;
 				flex-direction: column;
 				align-items: center;
 				color: #291f1e;
 				background-color: #f1f0f6;
 				font-size: 0.7rem;
+				p {
+					margin-top: 0;
+					color: #444c5a;
+					text-decoration: none;
+					padding: 0.25rem;
+				}
+			}
 
-				.middelCenterContent {
-					display: flex;
-					flex-direction: column;
-					justify-content: flex-start;
-					p {
-						color: #444c5a;
-						text-decoration: none;
-						padding: 0.25rem;
+			.hobbies {
+				grid-area: leftThree;
+				display: flex;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				align-content: center;
+				color: #0d0e10;
+				background-color: #f1f0f6;
+				font-size: 0.65rem;
+				p {
+					color: #444c5a;
+				}
+			}
+
+			.foto2 {
+				grid-area: rightThree;
+				background-image: url("/media/images/sigrid2.jpg");
+				background-size: cover;
+				background-position: center top;
+			}
+
+			.kwaliteiten {
+				grid-area: leftFour;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				align-content: center;
+				font-size: 0.65rem;
+				color: #bdc6e5;
+				background-color: #0d0e10;
+			}
+
+			.motto {
+				grid-area: rightFour;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				color: #0d0e10;
+				background-color: #f1f0f6;
+				font-size: 0.7rem;
+			}
+
+			.info {
+				grid-area: leftFive;
+				display: flex;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				align-content: center;
+				color: #0d0e10;
+				background-color: #f1f0f6;
+				font-size: 0.65rem;
+				p {
+					color: #444c5a;
+				}
+				a {
+					font-size: 0.9rem;
+					color: #444c5a;
+					text-decoration: none;
+					font-style: italic;
+					font-weight: bold;
+					&:hover {
+						color: #0d0e10;
 					}
 				}
 			}
 
-			.middleRight {
-				grid-area: middleRight;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: center;
-				color: #bdc6e5;
+			.foto3 {
+				grid-area: rightFive;
 				background-color: #0d0e10;
-
-				img {
-					width: 60%;
-					filter: grayscale(1);
-				}
-			}
-
-			.downLeft {
-				grid-area: downLeft;
-				display: flex;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: flex-start;
-				color: #0d0e10;
-				background-color: #f1f0f6;
-				font-size: 0.65rem;
-			}
-
-			.downCenter {
-				grid-area: downCenter;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: center;
-				color: #bdc6e5;
-				background-color: #0d0e10;
-				font-size: 0.7rem;
 			}
 		}
 
@@ -178,6 +185,7 @@
 					font-size: 0.9rem;
 				}
 				p {
+					padding: 0 1rem;
 					font-size: 0.9rem;
 				}
 			}
