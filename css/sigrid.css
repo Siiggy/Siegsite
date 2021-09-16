@@ -97,9 +97,7 @@
 }
 * body .bodyContainer .foto2 {
   grid-area: rightThree;
-  background-image: url("/media/images/sigrid2.jpg");
-  background-size: cover;
-  background-position: center top;
+  background-color: #0d0e10;
 }
 * body .bodyContainer .kwaliteiten {
   grid-area: leftFour;
@@ -154,7 +152,9 @@
 }
 * body .bodyContainer .foto3 {
   grid-area: rightFive;
-  background-color: #0d0e10;
+  background-image: url("/media/images/sigrid2.jpg");
+  background-size: cover;
+  background-position: center top;
 }
 @keyframes flipTile-hor {
   0% {

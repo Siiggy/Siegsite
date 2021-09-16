@@ -109,9 +109,7 @@
 
 			.foto2 {
 				grid-area: rightThree;
-				background-image: url("/media/images/sigrid2.jpg");
-				background-size: cover;
-				background-position: center top;
+				background-color: #0d0e10;
 			}
 
 			.kwaliteiten {
@@ -170,7 +168,9 @@
 
 			.foto3 {
 				grid-area: rightFive;
-				background-color: #0d0e10;
+				background-image: url("/media/images/sigrid2.jpg");
+				background-size: cover;
+				background-position: center top;
 			}
 		}
 
