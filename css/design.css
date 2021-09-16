@@ -27,7 +27,7 @@
   height: 15rem;
 }
 * body .bodyContainer .transformContainer p {
-  color: #caffbf;
+  color: #bdc6e5;
   opacity: 0.85;
   margin-left: 0.25rem;
 }
@@ -36,7 +36,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: #caffbf;
+  background-color: #bdc6e5;
   color: #291f1e;
   height: 5rem;
   width: 5rem;
@@ -54,24 +54,22 @@
   }
   10% {
     transform: translateY(5rem);
-    background-color: #caffbf;
+    background-color: #bdc6e5;
     color: #291f1e;
     border-radius: 50%;
   }
   22% {
     transform: translateY(5rem) translateX(25vw) scale(225%);
-    background-color: #caffbf;
+    background-color: #bdc6e5;
     color: #291f1e;
     border-radius: 50%;
   }
   32% {
     transform: translateY(2rem) translateX(65vw) scale(50%);
-    color: #faf8f9;
     border-radius: 50%;
   }
   45% {
     transform: translateY(2rem) translateX(65vw) rotateZ(45deg);
-    color: #faf8f9;
     border-radius: 0;
   }
   55% {
