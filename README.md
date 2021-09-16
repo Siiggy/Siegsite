@@ -13,7 +13,7 @@ _Starting the sass watcher:_ **sass --watch sass:css**
 
 _To Do_
 
-- Shared css file en aparte files voor de div's op de design-page
+- aparte files voor de div's op de design-page
 - Nieuwe transform met tekst transform opacity in de animation
 - Uitleg op JS pagina's
 - Uitleg pagina's voor website projecten ipv meteen naar de sites gaan

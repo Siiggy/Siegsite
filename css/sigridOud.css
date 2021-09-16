@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+* body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  display: flex;
+}
+* body .bodyContainer {
+  display: flex;
+  flex-direction: column;
+}
+* body .bodyContainer .home {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  width: 7rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+* body .bodyContainer .home img {
+  height: 1.5rem;
+}
+* body .bodyContainer .home a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #ce0f69;
+}
+* body .bodyContainer .contentContainer {
+  margin: 0 15vw;
+  align-items: center;
+  font-size: 0.9rem;
+}
+* body .bodyContainer .contentContainer .imageContainer img {
+  display: flex;
+  width: 20vw;
+  margin: 2rem auto;
+  align-items: center;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=sigridOud.css.map */
