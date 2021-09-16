@@ -51,8 +51,7 @@
 				justify-content: space-evenly;
 				background-color: #291f1e;
 				color: #faf8f9;
-				font-size: 0.9rem;
-				// font-size: calc(10px + 2vmin);
+				font-size: 0.75rem;
 
 				a {
 					grid-area: downMiddle;
@@ -82,7 +81,7 @@
 				justify-content: space-evenly;
 				background-color: #291f1e;
 				color: #faf8f9;
-				font-size: 0.9rem;
+				font-size: 0.75rem;
 
 				a {
 					grid-area: downMiddle;
@@ -119,7 +118,7 @@
 				align-items: center;
 				background-color: #291f1e;
 				color: #faf8f9;
-				font-size: 0.9rem;
+				font-size: 0.75rem;
 				h1 {
 					margin-bottom: 2rem;
 				}
@@ -163,7 +162,6 @@
 			// 	align-items: center;
 			// 	background-color: #291f1e;
 			// 	color: #faf8f9;
-			// 	// font-size: calc(10px + 2vmin);
 			// }
 
 			// .downCenter {
@@ -197,12 +195,12 @@
 			}
 		}
 
-		@media only screen and (max-width: 600px) {
+		@media (min-width: 600px) {
 			a {
-				font-size: 0.75rem;
+				font-size: 0.9rem;
 			}
 			h1 {
-				font-size: 1.5rem;
+				font-size: 2.5rem;
 			}
 		}
 	}

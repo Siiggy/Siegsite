@@ -40,7 +40,7 @@
   justify-content: space-evenly;
   background-color: #291f1e;
   color: #faf8f9;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
 }
 * body .bodyContainer .upLeft a {
   grid-area: downMiddle;
@@ -66,7 +66,7 @@
   justify-content: space-evenly;
   background-color: #291f1e;
   color: #faf8f9;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
 }
 * body .bodyContainer .upRight a {
   grid-area: downMiddle;
@@ -98,7 +98,7 @@
   align-items: center;
   background-color: #291f1e;
   color: #faf8f9;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
 }
 * body .bodyContainer .middleCenter h1 {
   margin-bottom: 2rem;
@@ -141,12 +141,12 @@
     transform: rotateY(360deg);
   }
 }
-@media only screen and (max-width: 600px) {
+@media (min-width: 600px) {
   * body a {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
   }
   * body h1 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 }
 
