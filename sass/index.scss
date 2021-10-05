@@ -7,8 +7,8 @@
 
 		.bodyContainer {
 			display: grid;
-			grid-template-rows: 40vh 60vh;
-			grid-template-columns: 20vw 60vw 20vw;
+			grid-template-rows: 40vh 1fr;
+			grid-template-columns: 20vw auto 20vw;
 			grid-template-areas:
 				"upLeft upCenter upRight"
 				"middleLeft middleCenter middleRight";
@@ -112,6 +112,7 @@
 			}
 
 			.middleCenter {
+				min-height: 60vh;
 				grid-area: middleCenter;
 				display: flex;
 				flex-direction: column;
@@ -145,7 +146,7 @@
 				display: flex;
 				flex-direction: column;
 				align-items: center;
-				justify-content: center;
+				justify-content: space-evenly;
 				background-color: #faf8f9;
 				color: #291f1e;
 

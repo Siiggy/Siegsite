@@ -8,11 +8,10 @@
   /* Hide scrollbars */
 }
 * body .bodyContainer {
+  background-color: #0d0e10;
   margin: 0 auto;
   display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: 20vw 80vw;
-  grid-template-areas: "leftOne rightOne" "leftTwo rightTwo" "leftThree rightThree" "leftFour rightFour" "leftFive rightFive";
+  grid-template-areas: "middleTwo" "middleOne" "middleFour" "leftTwo" "leftThree" "middleThree" "leftOne" "leftFour" "leftFive" "middleFive";
   gap: 0;
   text-align: center;
 }
@@ -21,6 +20,7 @@
 }
 * body .bodyContainer .programming {
   grid-area: leftOne;
+  padding: 0.5rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,6 +30,8 @@
   background-color: #f1f0f6;
 }
 * body .bodyContainer .programming .home {
+  z-index: -1;
+  margin-top: -4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,18 +43,20 @@
   color: #444c5a;
 }
 * body .bodyContainer .foto1 {
-  grid-area: rightOne;
+  grid-area: middleOne;
   background-image: url("/media/images/sigrid1.jpg");
   background-size: cover;
   background-position: center top;
+  color: transparent;
+  height: 22rem;
 }
 * body .bodyContainer .referentie {
   grid-area: leftTwo;
-  display: flex;
+  padding: 0.5rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
   color: #bdc6e5;
   background-color: #0d0e10;
@@ -66,10 +70,12 @@
   padding: 0.25rem;
 }
 * body .bodyContainer .rijmpje {
-  grid-area: rightTwo;
+  grid-area: middleTwo;
+  padding: 0.5rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
   color: #291f1e;
   background-color: #f1f0f6;
   font-size: 0.7rem;
@@ -82,11 +88,11 @@
 }
 * body .bodyContainer .hobbies {
   grid-area: leftThree;
-  display: flex;
+  padding: 0.5rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
   color: #0d0e10;
   background-color: #f1f0f6;
@@ -96,15 +102,16 @@
   color: #444c5a;
 }
 * body .bodyContainer .foto2 {
-  grid-area: rightThree;
+  grid-area: middleThree;
   background-color: #0d0e10;
 }
 * body .bodyContainer .kwaliteiten {
   grid-area: leftFour;
+  padding: 0.5rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
   font-size: 0.65rem;
   color: #bdc6e5;
@@ -114,11 +121,12 @@
   color: #f1f0f6;
 }
 * body .bodyContainer .motto {
-  grid-area: rightFour;
+  grid-area: middleFour;
+  padding: 0.5rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   color: #0d0e10;
   background-color: #f1f0f6;
   font-size: 0.7rem;
@@ -128,7 +136,7 @@
 }
 * body .bodyContainer .info {
   grid-area: leftFive;
-  display: flex;
+  padding: 0.5rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -151,10 +159,12 @@
   color: #0d0e10;
 }
 * body .bodyContainer .foto3 {
-  grid-area: rightFive;
+  grid-area: middleFive;
   background-image: url("/media/images/sigrid2.jpg");
   background-size: cover;
   background-position: center top;
+  color: transparent;
+  height: 15rem;
 }
 @keyframes flipTile-hor {
   0% {
@@ -168,6 +178,11 @@
   }
 }
 @media (min-width: 600px) {
+  * body .bodyContainer {
+    grid-template-rows: auto;
+    grid-template-columns: 20vw auto 20vw;
+    grid-template-areas: "leftOne middleOne leftFour" "leftTwo middleTwo middleFive " "leftThree middleThree middleFour" "leftFive leftFive leftFive";
+  }
   * body .bodyContainer h1 {
     font-size: 2.5rem;
   }
@@ -181,8 +196,62 @@
   * body .bodyContainer a {
     font-size: 0.9rem;
   }
+  * body .bodyContainer .programming .home {
+    z-index: 1;
+    margin-top: 1rem;
+  }
+  * body .bodyContainer .programming p {
+    color: #444c5a;
+  }
+  * body .bodyContainer .foto1 {
+    height: auto;
+  }
+  * body .bodyContainer .rijmpje .home {
+    z-index: -1;
+    margin-top: -3.5rem;
+  }
+  * body .bodyContainer .foto3 {
+    height: auto;
+  }
   * body .bodyContainer .referentie p {
     padding: 1rem;
+  }
+  * body .bodyContainer .foto2 {
+    align-self: center;
+  }
+  * body .bodyContainer .kwaliteiten {
+    color: #bdc6e5;
+    background-color: #f1f0f6;
+    padding: 5.5rem 2rem 0.5rem;
+  }
+  * body .bodyContainer .kwaliteiten h4 {
+    color: #0d0e10;
+  }
+  * body .bodyContainer .kwaliteiten p {
+    color: #444c5a;
+  }
+  * body .bodyContainer .motto h2 {
+    font-size: 0.9rem;
+  }
+  * body .bodyContainer .info {
+    grid-area: leftFive middleFive rightFive;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #bdc6e5;
+    padding: 0 0.5rem;
+  }
+  * body .bodyContainer .info p {
+    color: #444c5a;
+  }
+  * body .bodyContainer .info a {
+    color: #444c5a;
+    text-decoration: none;
+    font-style: italic;
+  }
+  * body .bodyContainer .info a:hover {
+    color: #f1f0f6;
   }
 }
 
