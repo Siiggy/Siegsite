@@ -1,292 +1,267 @@
-* {
-	box-sizing: border-box;
+body {
+	overflow-x: hidden; /* Hide scrollbars */
 
-	body {
-		font-family: "Ubuntu", sans-serif;
+	.bodyContainer {
+		background-color: #0d0e10;
 		margin: 0 auto;
-		overflow-x: hidden; /* Hide scrollbars */
+		display: grid;
+		grid-template-areas:
+			"rijmpje"
+			"foto1"
+			"motto"
+			"referentie"
+			"hobbies"
+			"foto2"
+			"programming"
+			"kwaliteiten"
+			"info"
+			"foto3";
+		gap: 0;
+		text-align: center;
 
-		.bodyContainer {
-			background-color: #0d0e10;
-			margin: 0 auto;
-			display: grid;
-			grid-template-areas:
-				"middleTwo"
-				"middleOne"
-				"middleFour"
-				"leftTwo"
-				"leftThree"
-				"middleThree"
-				"leftOne"
-				"leftFour"
-				"leftFive"
-				"middleFive";
-			gap: 0;
-			text-align: center;
+		.link {
+			font-style: italic;
+		}
 
-			.link {
-				font-style: italic;
-			}
+		.light {
+			padding: 0.5rem 2rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: flex-start;
+			font-size: 0.65rem;
+			color: #0d0e10;
+			background-color: #f1f0f6;
+		}
 
-			.programming {
-				grid-area: leftOne;
-				padding: 0.5rem 2rem;
+		.programming {
+			grid-area: programming;
+
+			.home {
+				z-index: -1;
+				margin-top: -4rem;
 				display: flex;
 				flex-direction: column;
 				align-items: center;
-				justify-content: flex-start;
-				font-size: 0.65rem;
-				color: #0d0e10;
-				background-color: #f1f0f6;
+				a {
+					font-size: 1.25rem;
+				}
+			}
 
+			p {
+				color: #444c5a;
+			}
+		}
+
+		.foto1 {
+			grid-area: foto1;
+			background-image: url("/media/images/sigrid1.jpg");
+			background-size: cover;
+			background-position: center top;
+			color: transparent;
+			height: 22rem;
+		}
+
+		.referentie {
+			grid-area: referentie;
+			padding: 0.5rem 2rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: flex-start;
+			align-content: center;
+			color: #bdc6e5;
+			background-color: #0d0e10;
+			font-size: 0.65rem;
+			h4 {
+				color: #f1f0f6;
+			}
+			p {
+				font-style: italic;
+				padding: 0.25rem;
+			}
+		}
+
+		.rijmpje {
+			grid-area: rijmpje;
+			font-size: 0.7rem;
+			p {
+				margin-top: 0;
+				color: #444c5a;
+				text-decoration: none;
+				padding: 0.25rem;
+			}
+		}
+
+		.hobbies {
+			grid-area: hobbies;
+			font-size: 0.65rem;
+			p {
+				color: #444c5a;
+			}
+		}
+
+		.foto2 {
+			grid-area: foto2;
+			background-color: #0d0e10;
+		}
+
+		.kwaliteiten {
+			grid-area: kwaliteiten;
+			padding: 0.5rem 2rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: flex-start;
+			align-content: center;
+			font-size: 0.65rem;
+			color: #bdc6e5;
+			background-color: #0d0e10;
+			h4 {
+				color: #f1f0f6;
+			}
+		}
+
+		.motto {
+			grid-area: motto;
+			font-size: 0.7rem;
+			p {
+				color: #444c5a;
+			}
+		}
+
+		.info {
+			grid-area: info;
+			padding: 0.5rem 2rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			align-content: center;
+			color: #0d0e10;
+			background-color: #f1f0f6;
+			font-size: 0.65rem;
+			p {
+				color: #444c5a;
+			}
+			a {
+				color: #444c5a;
+				text-decoration: none;
+				font-style: italic;
+				font-weight: bold;
+				&:hover {
+					color: #0d0e10;
+				}
+			}
+		}
+
+		.foto3 {
+			grid-area: foto3;
+			background-image: url("/media/images/sigrid2.jpg");
+			background-size: cover;
+			background-position: center top;
+			color: transparent;
+			height: 15rem;
+		}
+	}
+
+	@keyframes flipTile-hor {
+		0% {
+			transform: rotateY(0);
+		}
+		50% {
+			transform: rotateY(270deg);
+		}
+		100% {
+			transform: rotateY(360deg);
+		}
+	}
+
+	@media (min-width: 600px) {
+		.bodyContainer {
+			grid-template-rows: auto;
+			grid-template-columns: 20vw auto 20vw;
+			grid-template-areas:
+				"programming foto1 kwaliteiten"
+				"referentie rijmpje foto3"
+				"hobbies foto2 motto"
+				"info info info";
+			h1 {
+				font-size: 2.5rem;
+			}
+			h4 {
+				font-size: 0.9rem;
+			}
+			p {
+				padding: 0 1rem;
+				font-size: 0.9rem;
+			}
+			a {
+				font-size: 0.9rem;
+			}
+			.programming {
+				.home {
+					z-index: 1;
+					margin-top: 1rem;
+				}
+
+				p {
+					color: #444c5a;
+				}
+			}
+			.foto1 {
+				height: auto;
+			}
+			.rijmpje {
 				.home {
 					z-index: -1;
-					margin-top: -4rem;
-					display: flex;
-					flex-direction: column;
-					align-items: center;
-					a {
-						font-size: 1.25rem;
-					}
-				}
-
-				p {
-					color: #444c5a;
+					margin-top: -3.5rem;
 				}
 			}
-
-			.foto1 {
-				grid-area: middleOne;
-				background-image: url("/media/images/sigrid1.jpg");
-				background-size: cover;
-				background-position: center top;
-				color: transparent;
-				height: 22rem;
-			}
-
-			.referentie {
-				grid-area: leftTwo;
-				padding: 0.5rem 2rem;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: flex-start;
-				align-content: center;
-				color: #bdc6e5;
-				background-color: #0d0e10;
-				font-size: 0.65rem;
-				h4 {
-					color: #f1f0f6;
-				}
-				p {
-					font-style: italic;
-					padding: 0.25rem;
-				}
-			}
-
-			.rijmpje {
-				grid-area: middleTwo;
-				padding: 0.5rem 2rem;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: flex-start;
-				color: #291f1e;
-				background-color: #f1f0f6;
-				font-size: 0.7rem;
-				p {
-					margin-top: 0;
-					color: #444c5a;
-					text-decoration: none;
-					padding: 0.25rem;
-				}
-			}
-
-			.hobbies {
-				grid-area: leftThree;
-				padding: 0.5rem 2rem;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: flex-start;
-				align-content: center;
-				color: #0d0e10;
-				background-color: #f1f0f6;
-				font-size: 0.65rem;
-				p {
-					color: #444c5a;
-				}
-			}
-
-			.foto2 {
-				grid-area: middleThree;
-				background-color: #0d0e10;
-			}
-
-			.kwaliteiten {
-				grid-area: leftFour;
-				padding: 0.5rem 2rem;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: flex-start;
-				align-content: center;
-				font-size: 0.65rem;
-				color: #bdc6e5;
-				background-color: #0d0e10;
-				h4 {
-					color: #f1f0f6;
-				}
-			}
-
-			.motto {
-				grid-area: middleFour;
-				padding: 0.5rem 2rem;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: flex-start;
-				color: #0d0e10;
-				background-color: #f1f0f6;
-				font-size: 0.7rem;
-				p {
-					color: #444c5a;
-				}
-			}
-
-			.info {
-				grid-area: leftFive;
-				padding: 0.5rem 2rem;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: center;
-				align-content: center;
-				color: #0d0e10;
-				background-color: #f1f0f6;
-				font-size: 0.65rem;
-				p {
-					color: #444c5a;
-				}
-				a {
-					color: #444c5a;
-					text-decoration: none;
-					font-style: italic;
-					font-weight: bold;
-					&:hover {
-						color: #0d0e10;
-					}
-				}
-			}
-
 			.foto3 {
-				grid-area: middleFive;
-				background-image: url("/media/images/sigrid2.jpg");
-				background-size: cover;
-				background-position: center top;
-				color: transparent;
-				height: 15rem;
+				height: auto;
 			}
-		}
-
-		@keyframes flipTile-hor {
-			0% {
-				transform: rotateY(0);
-			}
-			50% {
-				transform: rotateY(270deg);
-			}
-			100% {
-				transform: rotateY(360deg);
-			}
-		}
-
-		@media (min-width: 600px) {
-			.bodyContainer {
-				grid-template-rows: auto;
-				grid-template-columns: 20vw auto 20vw;
-				grid-template-areas:
-					"leftOne middleOne leftFour"
-					"leftTwo middleTwo middleFive "
-					"leftThree middleThree middleFour"
-					"leftFive leftFive leftFive";
-				h1 {
-					font-size: 2.5rem;
+			.referentie {
+				p {
+					padding: 1rem;
 				}
+			}
+			.foto2 {
+				align-self: center;
+			}
+			.kwaliteiten {
+				color: #bdc6e5;
+				background-color: #f1f0f6;
+				padding: 5.5rem 2rem 0.5rem;
 				h4 {
-					font-size: 0.9rem;
+					color: #0d0e10;
 				}
 				p {
-					padding: 0 1rem;
+					color: #444c5a;
+				}
+			}
+			.motto {
+				h2 {
 					font-size: 0.9rem;
+				}
+			}
+			.info {
+				grid-area: leftFive middleFive rightFive;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-evenly;
+				align-items: center;
+				background-color: #bdc6e5;
+				padding: 0 0.5rem;
+				p {
+					color: #444c5a;
 				}
 				a {
-					font-size: 0.9rem;
-				}
-				.programming {
-					.home {
-						z-index: 1;
-						margin-top: 1rem;
-					}
-
-					p {
-						color: #444c5a;
-					}
-				}
-				.foto1 {
-					height: auto;
-				}
-				.rijmpje {
-					.home {
-						z-index: -1;
-						margin-top: -3.5rem;
-					}
-				}
-				.foto3 {
-					height: auto;
-				}
-				.referentie {
-					p {
-						padding: 1rem;
-					}
-				}
-				.foto2 {
-					align-self: center;
-				}
-				.kwaliteiten {
-					color: #bdc6e5;
-					background-color: #f1f0f6;
-					padding: 5.5rem 2rem 0.5rem;
-					h4 {
-						color: #0d0e10;
-					}
-					p {
-						color: #444c5a;
-					}
-				}
-				.motto {
-					h2 {
-						font-size: 0.9rem;
-					}
-				}
-				.info {
-					grid-area: leftFive middleFive rightFive;
-					display: flex;
-					flex-direction: row;
-					justify-content: space-evenly;
-					align-items: center;
-					background-color: #bdc6e5;
-					padding: 0 0.5rem;
-					p {
-						color: #444c5a;
-					}
-					a {
-						color: #444c5a;
-						text-decoration: none;
-						font-style: italic;
-						&:hover {
-							color: #f1f0f6;
-						}
+					color: #444c5a;
+					text-decoration: none;
+					font-style: italic;
+					&:hover {
+						color: #f1f0f6;
 					}
 				}
 			}

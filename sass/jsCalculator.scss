@@ -1,79 +1,71 @@
-* {
-	box-sizing: border-box;
-	body {
-		font-family: "Ubuntu", sans-serif;
-		margin: 0;
+.bodyContainer {
+	.headerContainer {
+		display: flex;
+		flex-direction: column;
+		padding-left: 2.5rem;
+		padding-top: 1rem;
+		color: #291f1e;
+	}
+	#results,
+	#calculator {
+		margin: 2rem auto;
+		width: 40rem;
+		max-width: 90%;
+		border: 1px solid #291f1e;
+		border-radius: 10px;
+		padding: 1rem;
+		color: #291f1e;
+	}
 
-		.bodyContainer {
-			.headerContainer {
-				display: flex;
-				flex-direction: column;
-				padding-left: 2.5rem;
-				padding-top: 1rem;
-				color: #291f1e;
-			}
-			#results,
-			#calculator {
-				margin: 2rem auto;
-				width: 40rem;
-				max-width: 90%;
-				border: 1px solid #291f1e;
-				border-radius: 10px;
-				padding: 1rem;
-				color: #291f1e;
-			}
+	#results {
+		text-align: center;
+	}
 
-			#results {
-				text-align: center;
-			}
+	#calculator input {
+		font-size: 2.5rem;
+		border: 2px solid #291f1e;
+		border-radius: 3px;
+		width: 10rem;
+		padding: 0.15rem;
+		margin: auto;
+		display: block;
+		color: #291f1e;
+		text-align: center;
+	}
 
-			#calculator input {
-				font-size: 2.5rem;
-				border: 2px solid #291f1e;
-				border-radius: 3px;
-				width: 10rem;
-				padding: 0.15rem;
-				margin: auto;
-				display: block;
-				color: #291f1e;
-				text-align: center;
-			}
+	#calculator input:focus {
+		outline: none;
+	}
 
-			#calculator input:focus {
-				outline: none;
-			}
+	#calculator button {
+		font: inherit;
+		background: #ce0f69;
+		color: #faf8f9;
+		border: 1px solid #ce0f69;
+		padding: 1rem;
+		cursor: pointer;
+	}
 
-			#calculator button {
-				font: inherit;
-				background: #ce0f69;
-				color: #faf8f9;
-				border: 1px solid #ce0f69;
-				padding: 1rem;
-				cursor: pointer;
-			}
+	#calculator button:focus {
+		outline: none;
+	}
 
-			#calculator button:focus {
-				outline: none;
-			}
+	#calculator button:hover,
+	#calculator button:active {
+		background: #ee7a99;
+		border-color: #ee7a99;
+	}
 
-			#calculator button:hover,
-			#calculator button:active {
-				background: #ee7a99;
-				border-color: #ee7a99;
-			}
+	#calc-actions button {
+		width: 4rem;
+	}
 
-			#calc-actions button {
-				width: 4rem;
-			}
+	#calc-actions {
+		margin-top: 1rem;
+		text-align: center;
+	}
 
-			#calc-actions {
-				margin-top: 1rem;
-				text-align: center;
-			}
-
-			.bold {
-				font-weight: bold;
-			}
-		}
+	.bold {
+		font-weight: bold;
 	}
 }
