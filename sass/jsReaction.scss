@@ -3,6 +3,9 @@ body {
 	height: 100vh;
 
 	.headerContainer {
+		display: grid;
+		grid-template-rows: 1fr 3fr auto;
+		overflow: wrap;
 		display: flex;
 		flex-direction: column;
 		padding-left: 2.5rem;
