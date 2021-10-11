@@ -5,6 +5,13 @@
   font-family: "Ubuntu", sans-serif;
   margin: 0;
 }
+* body .bodyContainer {
+  display: grid;
+  text-align: center;
+}
+* body .bodyContainer a {
+  text-decoration: none;
+}
 * body .bodyContainer .home {
   margin: 1rem 2rem;
   width: 7rem;
@@ -18,7 +25,6 @@
 * body .bodyContainer .home a {
   font-size: 1.5rem;
   font-weight: 600;
-  text-decoration: none;
   color: #ce0f69;
 }
 

@@ -1,15 +1,8 @@
-* {
-  box-sizing: border-box;
-}
-* body {
-  font-family: "Ubuntu", sans-serif;
-  margin: 0;
-}
-* body .bodyContainer {
+.bodyContainer {
   display: grid;
   width: 100%;
 }
-* body .bodyContainer .header {
+.bodyContainer .header {
   height: 5rem;
   display: flex;
   justify-content: center;
@@ -19,19 +12,19 @@
   font-size: 1.65rem;
   font-weight: bold;
 }
-* body .bodyContainer .transformContainer {
+.bodyContainer .transformContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: #291f1e;
   height: 15rem;
 }
-* body .bodyContainer .transformContainer p {
+.bodyContainer .transformContainer p {
   color: #bdc6e5;
   opacity: 0.85;
   margin-left: 0.25rem;
 }
-* body .bodyContainer .transformContainer .transform {
+.bodyContainer .transformContainer .transform {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,7 +36,7 @@
   font-size: 0.9rem;
   cursor: pointer;
 }
-* body .bodyContainer .transformContainer .animated {
+.bodyContainer .transformContainer .animated {
   -moz-animation: transformMe;
   -webkit-animation: transformMe;
   animation: transformMe 8s ease-in-out forwards;
@@ -109,7 +102,7 @@
     border-radius: 50%;
   }
 }
-* body .bodyContainer .videoContainer {
+.bodyContainer .videoContainer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -118,8 +111,8 @@
   position: relative;
   z-index: 1;
 }
-* body .bodyContainer .videoContainer h2,
-* body .bodyContainer .videoContainer p {
+.bodyContainer .videoContainer h2,
+.bodyContainer .videoContainer p {
   display: flex;
   padding: 1.5rem;
   z-index: 4;
@@ -129,11 +122,11 @@
   border-radius: 1rem;
   margin: 2rem;
 }
-* body .bodyContainer .videoContainer #videoH {
+.bodyContainer .videoContainer #videoH {
   padding: 2rem 1.5rem 2rem 1.5rem;
   margin-bottom: 0rem;
 }
-* body .bodyContainer .videoContainer .videoFilter {
+.bodyContainer .videoContainer .videoFilter {
   height: 25rem;
   width: 100%;
   background: #ce0f69;
@@ -144,13 +137,13 @@
   z-index: 2;
   opacity: 0.7;
 }
-* body .bodyContainer .videoContainer video {
+.bodyContainer .videoContainer video {
   position: absolute;
   object-fit: cover;
   height: 25rem;
   width: 100%;
 }
-* body .bodyContainer .footer {
+.bodyContainer .footer {
   height: 10rem;
   display: flex;
   justify-content: center;

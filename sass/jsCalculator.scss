@@ -1,8 +1,9 @@
 .bodyContainer {
+	grid-template-rows: 1fr 1.5fr auto;
+	grid-template-columns: 100vw;
 	.headerContainer {
 		display: flex;
 		flex-direction: column;
-		padding-left: 2.5rem;
 		padding-top: 1rem;
 		color: #291f1e;
 	}

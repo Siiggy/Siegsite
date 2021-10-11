@@ -1,0 +1,11 @@
+.bodyContainer {
+	grid-template-rows: 1fr 1.5fr 1fr auto;
+
+	.header {
+		background-image: url("/media/images/goedEtenHeader.png");
+	}
+
+	@media (min-width: 600px) {
+		grid-template-rows: 1fr 3fr 1fr auto;
+	}
+}

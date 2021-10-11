@@ -1,19 +1,15 @@
-* {
-  box-sizing: border-box;
+.bodyContainer {
+  grid-template-rows: 1fr 1.5fr auto;
+  grid-template-columns: 100vw;
 }
-* body {
-  font-family: "Ubuntu", sans-serif;
-  margin: 0;
-}
-* body .bodyContainer .headerContainer {
+.bodyContainer .headerContainer {
   display: flex;
   flex-direction: column;
-  padding-left: 2.5rem;
   padding-top: 1rem;
   color: #291f1e;
 }
-* body .bodyContainer #results,
-* body .bodyContainer #calculator {
+.bodyContainer #results,
+.bodyContainer #calculator {
   margin: 2rem auto;
   width: 40rem;
   max-width: 90%;
@@ -22,10 +18,10 @@
   padding: 1rem;
   color: #291f1e;
 }
-* body .bodyContainer #results {
+.bodyContainer #results {
   text-align: center;
 }
-* body .bodyContainer #calculator input {
+.bodyContainer #calculator input {
   font-size: 2.5rem;
   border: 2px solid #291f1e;
   border-radius: 3px;
@@ -36,10 +32,10 @@
   color: #291f1e;
   text-align: center;
 }
-* body .bodyContainer #calculator input:focus {
+.bodyContainer #calculator input:focus {
   outline: none;
 }
-* body .bodyContainer #calculator button {
+.bodyContainer #calculator button {
   font: inherit;
   background: #ce0f69;
   color: #faf8f9;
@@ -47,22 +43,22 @@
   padding: 1rem;
   cursor: pointer;
 }
-* body .bodyContainer #calculator button:focus {
+.bodyContainer #calculator button:focus {
   outline: none;
 }
-* body .bodyContainer #calculator button:hover,
-* body .bodyContainer #calculator button:active {
+.bodyContainer #calculator button:hover,
+.bodyContainer #calculator button:active {
   background: #ee7a99;
   border-color: #ee7a99;
 }
-* body .bodyContainer #calc-actions button {
+.bodyContainer #calc-actions button {
   width: 4rem;
 }
-* body .bodyContainer #calc-actions {
+.bodyContainer #calc-actions {
   margin-top: 1rem;
   text-align: center;
 }
-* body .bodyContainer .bold {
+.bodyContainer .bold {
   font-weight: bold;
 }
 

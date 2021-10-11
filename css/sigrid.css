@@ -1,25 +1,18 @@
-* {
-  box-sizing: border-box;
-}
-* body {
-  font-family: "Ubuntu", sans-serif;
-  margin: 0 auto;
+body {
   overflow-x: hidden;
   /* Hide scrollbars */
 }
-* body .bodyContainer {
+body .bodyContainer {
   background-color: #0d0e10;
   margin: 0 auto;
-  display: grid;
-  grid-template-areas: "middleTwo" "middleOne" "middleFour" "leftTwo" "leftThree" "middleThree" "leftOne" "leftFour" "leftFive" "middleFive";
+  grid-template-areas: "rijmpje" "foto1" "motto" "referentie" "hobbies" "foto2" "programming" "kwaliteiten" "info" "foto3";
   gap: 0;
   text-align: center;
 }
-* body .bodyContainer .link {
+body .bodyContainer .link {
   font-style: italic;
 }
-* body .bodyContainer .programming {
-  grid-area: leftOne;
+body .bodyContainer .light {
   padding: 0.5rem 2rem;
   display: flex;
   flex-direction: column;
@@ -29,29 +22,32 @@
   color: #0d0e10;
   background-color: #f1f0f6;
 }
-* body .bodyContainer .programming .home {
+body .bodyContainer .programming {
+  grid-area: programming;
+}
+body .bodyContainer .programming .home {
   z-index: -1;
   margin-top: -4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-* body .bodyContainer .programming .home a {
+body .bodyContainer .programming .home a {
   font-size: 1.25rem;
 }
-* body .bodyContainer .programming p {
+body .bodyContainer .programming p {
   color: #444c5a;
 }
-* body .bodyContainer .foto1 {
-  grid-area: middleOne;
+body .bodyContainer .foto1 {
+  grid-area: foto1;
   background-image: url("/media/images/sigrid1.jpg");
   background-size: cover;
   background-position: center top;
   color: transparent;
   height: 22rem;
 }
-* body .bodyContainer .referentie {
-  grid-area: leftTwo;
+body .bodyContainer .referentie {
+  grid-area: referentie;
   padding: 0.5rem 2rem;
   display: flex;
   flex-direction: column;
@@ -62,51 +58,36 @@
   background-color: #0d0e10;
   font-size: 0.65rem;
 }
-* body .bodyContainer .referentie h4 {
+body .bodyContainer .referentie h4 {
   color: #f1f0f6;
 }
-* body .bodyContainer .referentie p {
+body .bodyContainer .referentie p {
   font-style: italic;
   padding: 0.25rem;
 }
-* body .bodyContainer .rijmpje {
-  grid-area: middleTwo;
-  padding: 0.5rem 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  color: #291f1e;
-  background-color: #f1f0f6;
+body .bodyContainer .rijmpje {
+  grid-area: rijmpje;
   font-size: 0.7rem;
 }
-* body .bodyContainer .rijmpje p {
+body .bodyContainer .rijmpje p {
   margin-top: 0;
   color: #444c5a;
   text-decoration: none;
   padding: 0.25rem;
 }
-* body .bodyContainer .hobbies {
-  grid-area: leftThree;
-  padding: 0.5rem 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  align-content: center;
-  color: #0d0e10;
-  background-color: #f1f0f6;
+body .bodyContainer .hobbies {
+  grid-area: hobbies;
   font-size: 0.65rem;
 }
-* body .bodyContainer .hobbies p {
+body .bodyContainer .hobbies p {
   color: #444c5a;
 }
-* body .bodyContainer .foto2 {
-  grid-area: middleThree;
+body .bodyContainer .foto2 {
+  grid-area: foto2;
   background-color: #0d0e10;
 }
-* body .bodyContainer .kwaliteiten {
-  grid-area: leftFour;
+body .bodyContainer .kwaliteiten {
+  grid-area: kwaliteiten;
   padding: 0.5rem 2rem;
   display: flex;
   flex-direction: column;
@@ -117,25 +98,18 @@
   color: #bdc6e5;
   background-color: #0d0e10;
 }
-* body .bodyContainer .kwaliteiten h4 {
+body .bodyContainer .kwaliteiten h4 {
   color: #f1f0f6;
 }
-* body .bodyContainer .motto {
-  grid-area: middleFour;
-  padding: 0.5rem 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  color: #0d0e10;
-  background-color: #f1f0f6;
+body .bodyContainer .motto {
+  grid-area: motto;
   font-size: 0.7rem;
 }
-* body .bodyContainer .motto p {
+body .bodyContainer .motto p {
   color: #444c5a;
 }
-* body .bodyContainer .info {
-  grid-area: leftFive;
+body .bodyContainer .info {
+  grid-area: info;
   padding: 0.5rem 2rem;
   display: flex;
   flex-direction: column;
@@ -146,20 +120,20 @@
   background-color: #f1f0f6;
   font-size: 0.65rem;
 }
-* body .bodyContainer .info p {
+body .bodyContainer .info p {
   color: #444c5a;
 }
-* body .bodyContainer .info a {
+body .bodyContainer .info a {
   color: #444c5a;
   text-decoration: none;
   font-style: italic;
   font-weight: bold;
 }
-* body .bodyContainer .info a:hover {
+body .bodyContainer .info a:hover {
   color: #0d0e10;
 }
-* body .bodyContainer .foto3 {
-  grid-area: middleFive;
+body .bodyContainer .foto3 {
+  grid-area: foto3;
   background-image: url("/media/images/sigrid2.jpg");
   background-size: cover;
   background-position: center top;
@@ -178,62 +152,62 @@
   }
 }
 @media (min-width: 600px) {
-  * body .bodyContainer {
+  body .bodyContainer {
     grid-template-rows: auto;
     grid-template-columns: 20vw auto 20vw;
-    grid-template-areas: "leftOne middleOne leftFour" "leftTwo middleTwo middleFive " "leftThree middleThree middleFour" "leftFive leftFive leftFive";
+    grid-template-areas: "programming foto1 kwaliteiten" "referentie rijmpje foto3" "hobbies foto2 motto" "info info info";
   }
-  * body .bodyContainer h1 {
+  body .bodyContainer h1 {
     font-size: 2.5rem;
   }
-  * body .bodyContainer h4 {
+  body .bodyContainer h4 {
     font-size: 0.9rem;
   }
-  * body .bodyContainer p {
+  body .bodyContainer p {
     padding: 0 1rem;
     font-size: 0.9rem;
   }
-  * body .bodyContainer a {
+  body .bodyContainer a {
     font-size: 0.9rem;
   }
-  * body .bodyContainer .programming .home {
+  body .bodyContainer .programming .home {
     z-index: 1;
     margin-top: 1rem;
   }
-  * body .bodyContainer .programming p {
+  body .bodyContainer .programming p {
     color: #444c5a;
   }
-  * body .bodyContainer .foto1 {
+  body .bodyContainer .foto1 {
     height: auto;
   }
-  * body .bodyContainer .rijmpje .home {
+  body .bodyContainer .rijmpje .home {
     z-index: -1;
     margin-top: -3.5rem;
   }
-  * body .bodyContainer .foto3 {
+  body .bodyContainer .foto3 {
     height: auto;
   }
-  * body .bodyContainer .referentie p {
+  body .bodyContainer .referentie p {
     padding: 1rem;
   }
-  * body .bodyContainer .foto2 {
+  body .bodyContainer .foto2 {
     align-self: center;
   }
-  * body .bodyContainer .kwaliteiten {
+  body .bodyContainer .kwaliteiten {
     color: #bdc6e5;
     background-color: #f1f0f6;
     padding: 5.5rem 2rem 0.5rem;
   }
-  * body .bodyContainer .kwaliteiten h4 {
+  body .bodyContainer .kwaliteiten h4 {
     color: #0d0e10;
   }
-  * body .bodyContainer .kwaliteiten p {
+  body .bodyContainer .kwaliteiten p {
     color: #444c5a;
   }
-  * body .bodyContainer .motto h2 {
+  body .bodyContainer .motto h2 {
     font-size: 0.9rem;
   }
-  * body .bodyContainer .info {
+  body .bodyContainer .info {
     grid-area: leftFive middleFive rightFive;
     display: flex;
     flex-direction: row;
@@ -241,16 +215,23 @@
     align-items: center;
     background-color: #bdc6e5;
     padding: 0 0.5rem;
+    font-size: 0.7rem;
   }
-  * body .bodyContainer .info p {
+  body .bodyContainer .info h4 {
+    display: none;
+    font-size: 0.7rem;
+  }
+  body .bodyContainer .info p {
     color: #444c5a;
+    font-size: 0.7rem;
   }
-  * body .bodyContainer .info a {
+  body .bodyContainer .info a {
     color: #444c5a;
     text-decoration: none;
     font-style: italic;
+    font-size: 0.65rem;
   }
-  * body .bodyContainer .info a:hover {
+  body .bodyContainer .info a:hover {
     color: #f1f0f6;
   }
 }

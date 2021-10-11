@@ -4,7 +4,6 @@ body {
 	.bodyContainer {
 		background-color: #0d0e10;
 		margin: 0 auto;
-		display: grid;
 		grid-template-areas:
 			"rijmpje"
 			"foto1"
@@ -253,13 +252,20 @@ body {
 				align-items: center;
 				background-color: #bdc6e5;
 				padding: 0 0.5rem;
+				font-size: 0.7rem;
+				h4 {
+					display: none;
+					font-size: 0.7rem;
+				}
 				p {
 					color: #444c5a;
+					font-size: 0.7rem;
 				}
 				a {
 					color: #444c5a;
 					text-decoration: none;
 					font-style: italic;
+					font-size: 0.65rem;
 					&:hover {
 						color: #f1f0f6;
 					}

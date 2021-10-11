@@ -1,0 +1,48 @@
+.bodyContainer {
+  grid-template-rows: 1fr 2fr 1fr auto;
+  grid-template-areas: "home" "header" "title" "content";
+  text-align: center;
+}
+.bodyContainer .header {
+  grid-area: header;
+  background-image: url("/media/images/goodbusyHeader.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: transparent;
+}
+.bodyContainer .content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-align: start;
+  font-size: 0.9rem;
+  padding: 0 2rem;
+  padding-bottom: 2rem;
+}
+.bodyContainer .content a {
+  color: #ce0f69;
+}
+.bodyContainer .content img {
+  width: 20rem;
+  margin: 1rem 0;
+}
+@media (min-width: 600px) {
+  .bodyContainer {
+    grid-template-rows: 1fr 3fr 1fr auto;
+  }
+  .bodyContainer .content {
+    padding: 0 5rem;
+    padding-bottom: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .bodyContainer {
+    grid-template-rows: 1fr 5fr 1fr auto;
+  }
+  .bodyContainer .content {
+    padding: 0 15rem;
+    padding-bottom: 2rem;
+  }
+}
+
+/*# sourceMappingURL=goodBusy.css.map */

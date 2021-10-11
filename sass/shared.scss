@@ -6,6 +6,11 @@
 		margin: 0;
 
 		.bodyContainer {
+			display: grid;
+			text-align: center;
+			a {
+				text-decoration: none;
+			}
 			.home {
 				margin: 1rem 2rem;
 				width: 7rem;
@@ -20,7 +25,6 @@
 				a {
 					font-size: 1.5rem;
 					font-weight: 600;
-					text-decoration: none;
 					color: #ce0f69;
 				}
 			}
