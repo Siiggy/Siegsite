@@ -1,5 +1,5 @@
 .bodyContainer {
-  grid-template-rows: 1fr 1.5fr auto;
+  grid-template-rows: 1fr 3fr auto;
   grid-template-columns: 100vw;
 }
 .bodyContainer .headerContainer {
@@ -10,7 +10,7 @@
 }
 .bodyContainer #results,
 .bodyContainer #calculator {
-  margin: 2rem auto;
+  margin: 1.5rem auto;
   width: 40rem;
   max-width: 90%;
   border: 1px solid #291f1e;
