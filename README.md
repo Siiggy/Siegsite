@@ -7,7 +7,5 @@ _Starting the sass watcher:_ sass --watch sass:css
 
 **To Do**
 
-- aparte files voor de div's op de design-page
 - Nieuwe transform met tekst transform opacity in de animation
-- Uitleg op JS pagina's
-- Find out why horizontal scrollbar on sigrid.html
+- Evt. aparte files voor de div's op de design-page

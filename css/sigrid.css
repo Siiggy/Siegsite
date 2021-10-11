@@ -1,7 +1,3 @@
-body {
-  overflow-x: hidden;
-  /* Hide scrollbars */
-}
 body .bodyContainer {
   background-color: #0d0e10;
   margin: 0 auto;
