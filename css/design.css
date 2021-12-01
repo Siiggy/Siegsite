@@ -11,6 +11,9 @@
   background-color: #ce0f69;
   font-weight: bold;
 }
+.bodyContainer .header #header-title {
+  font-size: 2rem;
+}
 .bodyContainer .transformContainer {
   display: flex;
   flex-direction: column;

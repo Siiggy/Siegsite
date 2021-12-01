@@ -12,6 +12,10 @@
 		background-color: #ce0f69;
 		// background: linear-gradient(#ffffff, #faf8f9, #faf8f9, #ce0f69);
 		font-weight: bold;
+
+		#header-title {
+			font-size: 2rem;
+		}
 	}
 
 	.transformContainer {
@@ -20,6 +24,7 @@
 		justify-content: space-between;
 		background-color: #291f1e;
 		height: 15rem;
+
 		p {
 			color: #bdc6e5;
 			opacity: 0.85;
