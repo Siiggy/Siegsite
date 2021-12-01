@@ -13,7 +13,6 @@ _Starting the sass watcher:_ sass --watch sass:css
 
 - Javascript projecten toevoegen / vervangen
 - Hover op de logo's homepage
-- Hover me! vervangen door Click me! op design sample page
 
 - Nog een naar HTML structure kijken en verbeteren
 - Evt. aparte files voor de div's op de design-page

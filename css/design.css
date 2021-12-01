@@ -3,13 +3,12 @@
   width: 100%;
 }
 .bodyContainer .header {
-  height: 5rem;
+  height: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #faf8f9;
   background-color: #ce0f69;
-  font-size: 1.65rem;
   font-weight: bold;
 }
 .bodyContainer .transformContainer {
@@ -152,6 +151,12 @@
   color: #caffbf;
   font-size: 2.5rem;
   font-weight: bold;
+}
+@media (min-width: 600px) {
+  .bodyContainer header {
+    height: 5rem;
+    font-size: 1.65rem;
+  }
 }
 
 /*# sourceMappingURL=design.css.map */
