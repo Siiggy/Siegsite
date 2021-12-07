@@ -17,6 +17,6 @@ IMPROVE:
 ADD:
 
 - Engelse vertaling
-- Nieuwe transform met tekst transform opacity in de animation
 - Invert mouse op design sample page
+- Nieuwe transform met tekst transform opacity in de animation
 - Paralex effect aan foto about me page
