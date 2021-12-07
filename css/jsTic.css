@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: "Open-Sans", sans-serif;
   color: #2c292c;
-  background-color: #f3fafd;
+  background-color: #faf8f9;
 }
 body .home {
   margin: 1rem 2rem;
@@ -31,8 +31,8 @@ body .home a {
 .btn {
   font: inherit;
   padding: 0.5rem 1.5rem;
-  background-color: #00a3e0;
-  border: 1px solid #00a3e0;
+  background-color: #ee7a99;
+  border: 1px solid #ee7a99;
   color: white;
   border-radius: 4px;
   cursor: pointer;
@@ -41,16 +41,16 @@ body .home a {
 .btn-alt {
   background-color: transparent;
   border-color: transparent;
-  color: #00a3e0;
+  color: #ee7a99;
 }
 
 .btn:hover {
-  background-color: #0076a8;
-  border-color: #0076a8;
+  background-color: #ec688b;
+  border-color: #ec688b;
 }
 
 .btn-alt:hover {
-  background-color: #d4f1fd;
+  background-color: #fde2ef;
   border-color: transparent;
 }
 
@@ -135,7 +135,7 @@ body .home a {
   margin: 1rem;
   padding: 1rem;
   width: 50%;
-  background-color: #d4f1fd;
+  background-color: white;
   border-radius: 4px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
@@ -148,13 +148,13 @@ body .home a {
 #game-configuration h3 {
   font-size: 1.5rem;
   margin: 0.5rem 0;
-  color: #0076a8;
+  color: #ec688b;
 }
 
 .player-symbol {
   font-size: 2rem;
   font-weight: bold;
-  color: #053e57;
+  color: #ce0f69;
   margin: 0.5rem 0;
 }
 
@@ -170,7 +170,7 @@ body .home a {
   max-width: 40rem;
   margin: auto;
   padding: 1rem 2rem;
-  background-color: #053e57;
+  background-color: #ce0f69;
   color: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -184,7 +184,7 @@ body .home a {
 
 #active-player-name {
   font-weight: bold;
-  color: #053e57;
+  color: #ce0f69;
 }
 
 #game-board {
@@ -201,7 +201,7 @@ body .home a {
 }
 
 #game-board li {
-  background-color: #d4f1fd;
+  background-color: #fde2ef;
   border-radius: 2px;
   cursor: pointer;
   display: flex;
@@ -212,11 +212,11 @@ body .home a {
 }
 
 #game-board li:hover {
-  background-color: #0076a8;
+  background-color: #ec688b;
 }
 
 #game-board li.disabled {
-  background-color: #0076a8;
+  background-color: #ec688b;
   color: white;
   cursor: default;
 }
