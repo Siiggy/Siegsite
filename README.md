@@ -9,9 +9,7 @@ _Starting the sass watcher:_ sass --watch sass:css
 
 FIX:
 
-- lettertype mobile vergroten naar 1 rem
 - Foto's website projecten headers scherper
-- Hover op de logo's homepage
 - plaatjes website projecten even groot
 
 IMPROVE:

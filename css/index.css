@@ -84,6 +84,9 @@
   width: 60%;
   filter: grayscale(1);
 }
+.bodyContainer .middleLeft img:hover {
+  filter: grayscale(0);
+}
 .bodyContainer .middleCenter {
   min-height: 60vh;
   grid-area: middleCenter;
@@ -123,6 +126,9 @@
 .bodyContainer .middleRight img {
   width: 60%;
   filter: grayscale(1);
+}
+.bodyContainer .middleRight img:hover {
+  filter: grayscale(0);
 }
 
 @keyframes flipTile-hor {
