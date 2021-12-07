@@ -9,9 +9,6 @@ _Starting the sass watcher:_ sass --watch sass:css
 
 FIX:
 
-- Foto's website projecten headers scherper
-- plaatjes website projecten even groot
-
 IMPROVE:
 
 - Nog eens naar Grid kijken en verbeteren, met name aligning about me page

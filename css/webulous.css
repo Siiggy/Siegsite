@@ -2,7 +2,10 @@
   grid-template-rows: 1fr 1fr 1fr auto;
 }
 .bodyContainer .header {
-  background-image: url("/media/images/webulousHeader.png");
+  background-image: url("/media/images/webulousHeader.svg");
+}
+.bodyContainer img {
+  height: 17rem;
 }
 @media (min-width: 600px) {
   .bodyContainer {

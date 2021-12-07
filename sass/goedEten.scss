@@ -5,6 +5,10 @@
 		background-image: url("/media/images/goedEtenHeader.png");
 	}
 
+	img {
+		height: 35rem;
+	}
+
 	@media (min-width: 600px) {
 		grid-template-rows: 1fr 3fr 1fr auto;
 	}
