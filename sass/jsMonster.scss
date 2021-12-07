@@ -2,13 +2,20 @@ body {
 	display: flex;
 
 	.bodyContainer {
+		width: 100vw;
 		display: flex;
 		flex-direction: column;
+
+		header {
+			background-color: #291f1e;
+			color: white;
+			padding: 0.5rem 5%;
+		}
 
 		.contentContainer {
 			align-items: center;
 			justify-content: center;
-			margin: 0 15vw;
+			margin: auto;
 
 			h2 {
 				font-size: 1.25rem;
@@ -34,7 +41,7 @@ body {
 			}
 
 			progress[value]::-webkit-progress-value {
-				background-color: #4461ee;
+				background-color: #0076a8;
 				transition: all 0.2s ease-out;
 			}
 

@@ -2,13 +2,19 @@ body {
   display: flex;
 }
 body .bodyContainer {
+  width: 100vw;
   display: flex;
   flex-direction: column;
+}
+body .bodyContainer header {
+  background-color: #291f1e;
+  color: white;
+  padding: 0.5rem 5%;
 }
 body .bodyContainer .contentContainer {
   align-items: center;
   justify-content: center;
-  margin: 0 15vw;
+  margin: auto;
 }
 body .bodyContainer .contentContainer h2 {
   font-size: 1.25rem;
@@ -30,7 +36,7 @@ body .bodyContainer .contentContainer progress[value] {
   background-color: #faf8f9;
 }
 body .bodyContainer .contentContainer progress[value]::-webkit-progress-value {
-  background-color: #4461ee;
+  background-color: #0076a8;
   transition: all 0.2s ease-out;
 }
 body .bodyContainer .contentContainer progress[value]::-moz-progress-bar {

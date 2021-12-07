@@ -1,16 +1,22 @@
 body {
   width: 100vw;
   height: 100vh;
+  box-sizing: border-box;
 }
 body .headerContainer {
-  display: grid;
-  grid-template-rows: 1fr 3fr auto;
+  background-color: #291f1e;
+  color: white;
   overflow: wrap;
   display: flex;
   flex-direction: column;
-  padding-left: 2.5rem;
-  padding-top: 1rem;
-  color: #291f1e;
+  padding: 0rem 5% 0.5rem;
+}
+body h2 {
+  margin: 1rem 0 0.5rem;
+}
+body p {
+  margin: 0.5rem;
+  font-size: 0.9rem;
 }
 body #shape {
   width: 200px;
