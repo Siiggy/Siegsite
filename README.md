@@ -11,7 +11,6 @@ FIX:
 
 - lettertype mobile vergroten naar 1 rem
 - Foto's website projecten headers scherper
-- Naam bij referenties zetten
 - Hover op de logo's homepage
 - plaatjes website projecten even groot
 
@@ -23,6 +22,7 @@ IMPROVE:
 
 ADD:
 
+- Engelse vertaling
 - Nieuwe transform met tekst transform opacity in de animation
 - Invert mouse op design sample page
 - Paralex effect aan foto about me page

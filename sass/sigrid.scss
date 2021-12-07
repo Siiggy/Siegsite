@@ -61,7 +61,7 @@ body {
 
 		.referentie {
 			grid-area: referentie;
-			padding: 0.5rem 2rem;
+			padding: 0 2rem;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -74,8 +74,11 @@ body {
 				color: #f1f0f6;
 			}
 			p {
+				margin: 0 0.5rem;
+			}
+			.naam {
 				font-style: italic;
-				padding: 0.25rem;
+				padding: 0.5rem 0 1.5rem 0;
 			}
 		}
 
