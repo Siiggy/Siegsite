@@ -16,7 +16,6 @@ FIX:
 
 IMPROVE:
 
-- Javascript projecten toevoegen / vervangen
 - Nog eens naar Grid kijken en verbeteren, met name aligning about me page
 - Evt. aparte files voor de sections op de design-page
 

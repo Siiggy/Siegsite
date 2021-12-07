@@ -21,12 +21,12 @@ body {
 		}
 
 		.light {
-			padding: 0.5rem 2rem;
+			padding: 0.5rem 1rem;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 			justify-content: flex-start;
-			font-size: 0.65rem;
+			font-size: 0.8rem;
 			color: #0d0e10;
 			background-color: #f1f0f6;
 		}
@@ -69,7 +69,7 @@ body {
 			align-content: center;
 			color: #bdc6e5;
 			background-color: #0d0e10;
-			font-size: 0.65rem;
+			font-size: 0.8rem;
 			h4 {
 				color: #f1f0f6;
 			}
@@ -84,18 +84,17 @@ body {
 
 		.rijmpje {
 			grid-area: rijmpje;
-			font-size: 0.7rem;
+			font-size: 0.8rem;
 			p {
 				margin-top: 0;
 				color: #444c5a;
 				text-decoration: none;
-				padding: 0.25rem;
 			}
 		}
 
 		.hobbies {
 			grid-area: hobbies;
-			font-size: 0.65rem;
+			font-size: 0.8rem;
 			p {
 				color: #444c5a;
 			}
@@ -114,7 +113,7 @@ body {
 			align-items: center;
 			justify-content: flex-start;
 			align-content: center;
-			font-size: 0.65rem;
+			font-size: 0.8rem;
 			color: #bdc6e5;
 			background-color: #0d0e10;
 			h4 {
@@ -124,7 +123,7 @@ body {
 
 		.motto {
 			grid-area: motto;
-			font-size: 0.7rem;
+			font-size: 0.8rem;
 			p {
 				color: #444c5a;
 			}
@@ -140,7 +139,7 @@ body {
 			align-content: center;
 			color: #0d0e10;
 			background-color: #f1f0f6;
-			font-size: 0.65rem;
+			font-size: 0.8rem;
 			p {
 				color: #444c5a;
 			}
@@ -242,7 +241,7 @@ body {
 			}
 			.motto {
 				h2 {
-					font-size: 0.9rem;
+					font-size: 1rem;
 				}
 			}
 			.info {
@@ -253,20 +252,20 @@ body {
 				align-items: center;
 				background-color: #bdc6e5;
 				padding: 0 0.5rem;
-				font-size: 0.7rem;
+				font-size: 0.8rem;
 				h4 {
 					display: none;
-					font-size: 0.7rem;
+					font-size: 0.8rem;
 				}
 				p {
 					color: #444c5a;
-					font-size: 0.7rem;
+					font-size: 0.8rem;
 				}
 				a {
 					color: #444c5a;
 					text-decoration: none;
 					font-style: italic;
-					font-size: 0.65rem;
+					font-size: 0.8rem;
 					&:hover {
 						color: #f1f0f6;
 					}
