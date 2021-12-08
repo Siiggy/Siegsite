@@ -80,14 +80,15 @@
   background-color: #faf8f9;
   color: #291f1e;
 }
-.bodyContainer .middleLeft img {
+.bodyContainer .middleLeft a {
+  width: 100%;
+}
+.bodyContainer .middleLeft a img {
   width: 60%;
   filter: grayscale(1);
-  -webkit-filter: grayscale(1);
 }
-.bodyContainer .middleLeft img:hover {
+.bodyContainer .middleLeft a img:hover {
   filter: grayscale(0);
-  -webkit-filter: grayscale(0);
 }
 .bodyContainer .middleCenter {
   min-height: 60vh;
@@ -125,14 +126,15 @@
   background-color: #faf8f9;
   color: #291f1e;
 }
-.bodyContainer .middleRight img {
+.bodyContainer .middleRight a {
+  width: 100%;
+}
+.bodyContainer .middleRight a img {
   width: 60%;
   filter: grayscale(1);
-  -webkit-filter: grayscale(1);
 }
-.bodyContainer .middleRight img:hover {
+.bodyContainer .middleRight a img:hover {
   filter: grayscale(0);
-  -webkit-filter: grayscale(0);
 }
 
 @keyframes flipTile-hor {
