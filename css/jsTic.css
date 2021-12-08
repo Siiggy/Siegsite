@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: "Open-Sans", sans-serif;
-  color: #2c292c;
-  background-color: #faf8f9;
+  color: #291f1e;
+  background-color: white;
 }
 body .home {
   margin: 1rem 2rem;
@@ -45,8 +45,8 @@ body .home a {
 }
 
 .btn:hover {
-  background-color: #ec688b;
-  border-color: #ec688b;
+  background-color: #ce0f69;
+  border-color: #ce0f69;
 }
 
 .btn-alt:hover {
@@ -135,7 +135,7 @@ body .home a {
   margin: 1rem;
   padding: 1rem;
   width: 50%;
-  background-color: white;
+  background-color: #fde2ef;
   border-radius: 4px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
@@ -148,13 +148,13 @@ body .home a {
 #game-configuration h3 {
   font-size: 1.5rem;
   margin: 0.5rem 0;
-  color: #ec688b;
+  color: #ce0f69;
 }
 
 .player-symbol {
   font-size: 2rem;
   font-weight: bold;
-  color: #ce0f69;
+  color: #7d2248;
   margin: 0.5rem 0;
 }
 
@@ -170,7 +170,7 @@ body .home a {
   max-width: 40rem;
   margin: auto;
   padding: 1rem 2rem;
-  background-color: #ce0f69;
+  background-color: #7d2248;
   color: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -184,7 +184,7 @@ body .home a {
 
 #active-player-name {
   font-weight: bold;
-  color: #ce0f69;
+  color: #7d2248;
 }
 
 #game-board {
@@ -212,11 +212,11 @@ body .home a {
 }
 
 #game-board li:hover {
-  background-color: #ec688b;
+  background-color: #ce0f69;
 }
 
 #game-board li.disabled {
-  background-color: #ec688b;
+  background-color: #ce0f69;
   color: white;
   cursor: default;
 }
