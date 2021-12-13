@@ -1,4 +1,4 @@
-# Siegsite
+# Sigrids site
 
 Thank you for visiting my portfolio site. Feel free to browse, hover and click around.
 The code for this project is also visible on GitHub.
