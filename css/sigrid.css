@@ -54,6 +54,9 @@ body .bodyContainer .referentie {
   background-color: #291f1e;
   font-size: 0.8rem;
 }
+body .bodyContainer .referentie h4 {
+  color: #ee7a99;
+}
 body .bodyContainer .referentie p {
   margin: 0 0.5rem;
 }
@@ -94,7 +97,7 @@ body .bodyContainer .kwaliteiten {
   background-color: #291f1e;
 }
 body .bodyContainer .kwaliteiten h4 {
-  color: #faf8f9;
+  color: #ee7a99;
 }
 body .bodyContainer .motto {
   grid-area: motto;
@@ -222,13 +225,13 @@ body .bodyContainer .foto3 {
     font-size: 0.8rem;
   }
   body .bodyContainer .info a {
-    color: #faf8f9;
+    color: #ee7a99;
     text-decoration: none;
     font-style: italic;
     font-size: 0.8rem;
   }
   body .bodyContainer .info a:hover {
-    color: #ee7a99;
+    color: #faf8f9;
   }
 }
 

@@ -70,7 +70,9 @@ body {
 			color: #faf8f9;
 			background-color: #291f1e;
 			font-size: 0.8rem;
-
+			h4 {
+				color: #ee7a99;
+			}
 			p {
 				margin: 0 0.5rem;
 			}
@@ -115,7 +117,7 @@ body {
 			color: #faf8f9;
 			background-color: #291f1e;
 			h4 {
-				color: #faf8f9;
+				color: #ee7a99;
 			}
 		}
 
@@ -261,12 +263,12 @@ body {
 					font-size: 0.8rem;
 				}
 				a {
-					color: #faf8f9;
+					color: #ee7a99;
 					text-decoration: none;
 					font-style: italic;
 					font-size: 0.8rem;
 					&:hover {
-						color: #ee7a99;
+						color: #faf8f9;
 					}
 				}
 			}
