@@ -44,7 +44,6 @@ body {
 					font-size: 1.25rem;
 				}
 			}
-
 			p {
 				color: #291f1e;
 			}
@@ -198,28 +197,32 @@ body {
 			a {
 				font-size: 0.9rem;
 			}
+
 			.programming {
 				.home {
 					z-index: 1;
 					margin-top: 1rem;
 				}
-
 				p {
 					color: #291f1e;
 				}
 			}
+
 			.foto1 {
 				height: auto;
 			}
+
 			.rijmpje {
 				.home {
 					z-index: -1;
 					margin-top: -3.5rem;
 				}
 			}
+
 			.foto3 {
 				height: auto;
 			}
+
 			.referentie {
 				p {
 					padding: 1rem;
@@ -228,6 +231,7 @@ body {
 			.foto2 {
 				align-self: center;
 			}
+
 			.kwaliteiten {
 				color: #291f1e;
 				background-color: #faf8f9;
@@ -239,11 +243,13 @@ body {
 					color: #291f1e;
 				}
 			}
+
 			.motto {
 				h2 {
 					font-size: 1rem;
 				}
 			}
+
 			.info {
 				grid-area: leftFive middleFive rightFive;
 				display: flex;
