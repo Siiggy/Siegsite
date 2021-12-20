@@ -144,7 +144,7 @@ body .bodyContainer .info p {
   color: #291f1e;
 }
 body .bodyContainer .info a {
-  color: #291f1e;
+  color: #ee7a99;
   text-decoration: none;
   font-style: italic;
   font-weight: bold;
@@ -247,7 +247,6 @@ body .bodyContainer .foto3 {
     font-size: 0.8rem;
   }
   body .bodyContainer .info a {
-    color: #ee7a99;
     text-decoration: none;
     font-style: italic;
     font-size: 0.8rem;
