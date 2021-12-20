@@ -73,6 +73,27 @@ body .bodyContainer .rijmpje p {
   color: #291f1e;
   text-decoration: none;
 }
+body .bodyContainer .rijmpje .btn {
+  width: 8rem;
+  margin: 1rem;
+  background-color: #faf8f9;
+  color: #291f1e;
+  border: 1px solid #ce0f69;
+  border-radius: 2px;
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+}
+body .bodyContainer .rijmpje .btn:hover {
+  color: #ce0f69;
+}
+body .bodyContainer .rijmpje .btn:focus {
+  font-weight: bold;
+  background-color: #ce0f69;
+  color: #faf8f9;
+}
+body .bodyContainer .rijmpje #poem {
+  display: none;
+}
 body .bodyContainer .hobbies {
   grid-area: hobbies;
   font-size: 0.8rem;

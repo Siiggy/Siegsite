@@ -89,6 +89,29 @@ body {
 				color: #291f1e;
 				text-decoration: none;
 			}
+
+			.btn {
+				width: 8rem;
+				margin: 1rem;
+				background-color: #faf8f9;
+				color: #291f1e;
+				border: 1px solid #ce0f69;
+				border-radius: 2px;
+				padding: 0.5rem 2rem;
+				font-weight: bold;
+				&:hover {
+					color: #ce0f69;
+				}
+				&:focus {
+					font-weight: bold;
+					background-color: #ce0f69;
+					color: #faf8f9;
+				}
+			}
+
+			#poem {
+				display: none;
+			}
 		}
 
 		.hobbies {
@@ -115,6 +138,7 @@ body {
 			font-size: 0.8rem;
 			color: #faf8f9;
 			background-color: #291f1e;
+
 			h4 {
 				color: #ee7a99;
 			}

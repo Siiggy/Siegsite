@@ -19,7 +19,7 @@
 					<img src="media/images/beeldmerk.svg" href="index.html" />
 					<a href="index.html">Home</a>
 				</button>
-				<h4>Programming</h4>
+				<h4>My Programming skills</h4>
 				<p>HTML
 				</br>CSS / SASS
 				</br>JavaScript
@@ -38,10 +38,11 @@
 			</section>
 			<section class="foto1">foto</section>
 			<section class="referentie">
-				<h4>Referenties</h4>
-				<p>"Ik heb Sigrid leren kennen als een echte go-getter. Ik zag haar hersenen gelijk aan werk gaan als we een design uitdaging hadden. Regelmatig kwam ze gelijk met (visuele) ideeën, waardoor we een snelle en dynamische samenwerking hadden. Sigrid weet heel goed naar de klant te luisteren en de wensen te vertalen naar een passende look&feel. Sigrid is een open en eerlijk persoon en ik heb met veel plezier en vertrouwen met haar samengewerkt."</p>
+				<h4>Reviews</h4>
+				<p>“I got to know Sigrid as a real go-getter. I saw her brain go to work right away when we had a design challenge. She regularly came up with (visual) ideas right away, so we had a fast and dynamic collaboration.
+					Sigrid knows how to listen to the customer very well and to translate the wishes into a suitable look & feel. Sigrid is an open and honest person and I have enjoyed working with her with great pleasure and trust”</p>
 				<p class="naam">Jitske Bloemsma - GoedEten Den Haag</p>
-				<p>“Sigrid is een fijne collega die vanuit haar ervaring en expertise zaken in een ander licht kan zien, snel kan schakelen en van aanpakken weet! Kortom, een goede aanvulling in een team!”</p>
+				<p>“Sigrid is a great colleague who, based on her experience and expertise, can see matters in a different light, can switch quickly and knows how to get things done! In short, a good addition to a team!”</p>
 				<p class="naam"> Esther Gerrits - Geboortezorg Limburg</p>
 			</section>
 			<section class="light rijmpje">
@@ -50,7 +51,7 @@
 					<a href="index.html">Home</a>
 				</button>
 					<h1>Sigrid Nederpelt</h1>
-					<p>
+					<p id="gedicht">
 						Van mooie websites maken word ik blij
 						</br> 
 						Alles goed uitlijnen, netjes op een rij
@@ -76,54 +77,81 @@
 						</br> 
 						Dus wil jij iets moois hebben, kies dan voor mij!
 						</p>
+							<p id="poem">
+							Creating beautiful websites makes me feel glee
+							</br> 
+							Align everything properly, all neatly to the tee
+							</br> 
+							A little bit up and a little to the side, ah oui
+							</br> 
+							</br> 
+							In working on assignment I also feel free 
+							</br> 
+							To get started with a new job for thee
+							</br> 
+							Good communication and cooperation I guarantee
+							</br> 
+							</br>
+							Of course I will create a suitable look & feel to be
+							</br>  
+							Colours, logos and features are included in the fee
+							</br> 
+							I am pixel-perfect to an extensive degree
+							</br>
+							</br> 
+							Creating beautiful websites makes me feel glee
+							</br> 
+							So if you want something beautiful, then choose me!
+							</p>
+							<div>
+								<button id="btn-poem" class= "btn" >English</button>
+								<button id="btn-gedicht" class= "btn" >Nederlands</button>
+							</div>
 			</section>
 			<section class="light hobbies">				
-				<h4>Hobbies</h4>
-				<p>Vrienden
-				</br>Gamen
-				</br>Tennissen
-				</br>Mountainbiken
-				</br>Lezen
-				</br>Bakken
-				</br>Zingen
-				</br>Optreden
+				<h4>My Hobbies</h4>
+				<p>Friends
+				</br>Gaming
+				</br>Play tennis
+				</br>Mountainbiking
+				</br>Reading
+				</br>Baking
+				</br>Singing
+				</br>Performing
 			</section>
 			<section class="foto2">
 				<video  height="215" src="/media/videos/nnsKidsAmerica.mp4" type="video/mp4" controls></video>
 			</section>
 			<section class="kwaliteiten">
 				<h4>Kwaliteiten</h4>
-				<p>Analytisch
-				</br>Doelgericht
-				</br>Gedreven
-				</br>Hulpvaardig
+				<p>Analytical
+				</br>Driven
+				</br>Friendly
+				</br>Helpful
 				</br>Open-minded
 				</br>Pixel perfect
-				</br>Positief
-				</br>Toegewijd
-				</br>Vriendelijk
-				</br>Win-win-mentaliteit</p>
+				</br>Positive
+				</br>Responsible
+				</br>Result focused
+				</br>Win-win-mentality</p>
 			</section>
 			<div class="light motto">			
-				<h2>Mijn motto's</h2>
+				<h2>My motto's</h2>
 				<p>
-				“Behandel anderen, zoals je zelf behandeld wilt worden”
+				“Tread others as you wish to be treated”
 				</br> 
 				</br> 
-				“Ik regel dat wel”
+				“I’ll take care of that”
 				</br> 
 				</br> 
-				“Eerlijk duurt het langst”	
+				“Honesty is the best policy”	
 					</br> 
 				</br> 
-				“Zeg wat je doet en doe wat je zegt”
-				</br> 
-				</br> 
-				“Blije mensen werken het hardst”
+				“Do what you say & say what you do”
 				</br> 
 				</br> 
 				“I love it when a plan comes together”
-				</p>
+				</br> 
 				</div>
 				<section class="info">
 						<h4>Info</h4>
@@ -150,5 +178,24 @@
 						</p>
 					</div> -->
 		</div>
+		<script>
+			const gedichtElement = document.getElementById('gedicht');
+			const poemElement = document.getElementById('poem');
+			const btnPoem = document.getElementById('btn-poem');
+			const btnGedicht = document.getElementById('btn-gedicht');
+			
+			function translateEN() {
+				gedichtElement.style.display = "none"
+				poemElement.style.display = "block"
+			}
+
+			function translateNL() {
+				poemElement.style.display = "none"
+				gedichtElement.style.display = "block"
+			}
+
+			btnPoem.addEventListener("click", translateEN)
+			btnGedicht.addEventListener("click", translateNL)
+		</script>
 	</body>
 </html>
