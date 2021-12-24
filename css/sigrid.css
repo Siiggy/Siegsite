@@ -144,13 +144,10 @@ body .bodyContainer .info p {
   color: #291f1e;
 }
 body .bodyContainer .info a {
-  color: #ee7a99;
+  color: #ce0f69;
   text-decoration: none;
   font-style: italic;
-  font-weight: bold;
-}
-body .bodyContainer .info a:hover {
-  color: #291f1e;
+  margin: 0 0.75rem;
 }
 body .bodyContainer .foto3 {
   grid-area: foto3;
@@ -250,9 +247,10 @@ body .bodyContainer .foto3 {
     text-decoration: none;
     font-style: italic;
     font-size: 0.8rem;
+    color: #ee7a99;
   }
   body .bodyContainer .info a:hover {
-    color: #faf8f9;
+    color: #ce0f69;
   }
 }
 

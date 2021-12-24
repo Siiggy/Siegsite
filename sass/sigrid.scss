@@ -169,13 +169,10 @@ body {
 				color: #291f1e;
 			}
 			a {
-				color: #ee7a99;
+				color: #ce0f69;
 				text-decoration: none;
 				font-style: italic;
-				font-weight: bold;
-				&:hover {
-					color: #291f1e;
-				}
+				margin: 0 0.75rem;
 			}
 		}
 
@@ -298,8 +295,9 @@ body {
 					text-decoration: none;
 					font-style: italic;
 					font-size: 0.8rem;
+					color: #ee7a99;
 					&:hover {
-						color: #faf8f9;
+						color: #ce0f69;
 					}
 				}
 			}
