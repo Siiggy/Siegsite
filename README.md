@@ -1,9 +1,14 @@
 # Sigrids site
 
 Thank you for visiting my portfolio site. Feel free to browse, hover and click around.
-The code for this project is also visible on GitHub.
 
-_Starting the sass watcher:_ sass --watch sass:css
+_The JS Reaction Timer is based on a mini project from the Udemy course "The Complete Web Developer Course 2.0" by Rob Percival._
+_The JS Monster Killer is based on a mini project from the Udemy course "Javascript - The Complete Guide 2022 (Beginner + Advanced)" by Academind._
+_The JS Tic Tac Toe is based on a mini project from the Udemy course "The Complete Web Developer Course 2.0" by Academind._
+
+---
+
+sass --watch sass:css
 
 **To Do**
 
@@ -43,19 +48,3 @@ De eerste plaatjes zijn foto's van hoe het er eerst uit zag en op het tweede pla
 theQueen's Duck:
 the Queens Duck is de website van een collega waarmee ik de website van GoedEten Den Haag heb gemaakt.
 De website is nog in progress en is voornamelijk het project van mijn collega, maar ik vind het leuk om mee te helpen en samen te werken.
-
-Sigrid:
-Van mooie websites maken word ik blij
-Alles goed uitlijnen, netjes op een rij
-Nog een beetje omhoog en een tikkie opzij
-
-Ook in het creëren op opdracht voel ik me vrij
-Om lekker aan de slag te gaan met een nieuw karwei
-Een fijne communicatie en samenwerking horen daarbij
-
-Natuurlijk maak ik er een passende look & feel bij
-Kleuren, logo's en features zijn van de partij
-In pixel-perfect werken ben ik een kei
-
-Van mooie websites maken word ik blij
-Dus wil jij iets moois hebben, kies dan voor mij!
