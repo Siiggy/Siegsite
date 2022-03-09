@@ -136,11 +136,12 @@
 .bodyContainer .middleRight a img:hover {
   filter: grayscale(0);
 }
-.bodyContainer .middleRight p {
+.bodyContainer .middleRight #or {
   font-family: Oswald, sans-serif;
+  font-size: 1.8vw;
   color: #291f1e;
 }
-.bodyContainer .middleRight p:hover {
+.bodyContainer .middleRight #or:hover {
   color: #fc7e00;
 }
 
