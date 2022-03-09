@@ -163,6 +163,15 @@
 				filter: grayscale(0);
 			}
 		}
+
+		p {
+			font-family: Oswald, sans-serif;
+			color: #291f1e;
+
+			&:hover {
+				color: #fc7e00;
+			}
+		}
 	}
 }
 

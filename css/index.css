@@ -136,6 +136,13 @@
 .bodyContainer .middleRight a img:hover {
   filter: grayscale(0);
 }
+.bodyContainer .middleRight p {
+  font-family: Oswald, sans-serif;
+  color: #291f1e;
+}
+.bodyContainer .middleRight p:hover {
+  color: #fc7e00;
+}
 
 @keyframes flipTile-hor {
   0% {
