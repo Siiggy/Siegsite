@@ -2,7 +2,7 @@
   grid-template-rows: 1fr 1.5fr 1fr auto;
 }
 .bodyContainer .header {
-  background-image: url("/media/images/theQueensDuckHeader.png");
+  background-image: url("/media/images/oranjeReporterHeader.png");
 }
 @media (min-width: 600px) {
   .bodyContainer {
@@ -20,4 +20,4 @@
   }
 }
 
-/*# sourceMappingURL=theQueensDuck.css.map */
+/*# sourceMappingURL=oranjeReporter.css.map */
