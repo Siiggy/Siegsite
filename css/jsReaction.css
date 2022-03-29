@@ -28,5 +28,9 @@ body #shape {
 body .bold {
   font-weight: bold;
 }
+body .btn-shared {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
 
 /*# sourceMappingURL=jsReaction.css.map */

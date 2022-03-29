@@ -23,6 +23,9 @@
 			<p>Your time: <span id="timeTaken"></span></p>
 
 			<p class="bold">Your fastest time is: <span id="bestTime"></span></p>
+			<span class="btn-shared">
+				<a href="jsBasics.html">Back</a>
+			</span>
 			<div id="shape"></div>
 
 			<script type="text/javascript">
@@ -42,7 +45,7 @@
 				}
 
 				function makeShapeAppear() {
-					const top = Math.random() * 45;
+					const top = Math.random() * 25;
 					const left = Math.random() * 90;
 					const width = Math.random() * 150 + 75;
 
@@ -86,7 +89,6 @@
 					}
 
 					/*         const end = new Date().getTime();
-
         const timeTaken = (end - start) / 1000;
 
         document.getElementById("timeTaken").innerHTML = timeTaken + " s"; */
