@@ -1,7 +1,12 @@
 .bodyContainer header {
   background-color: #291f1e;
-  color: white;
+  color: #faf8f9;
   padding: 0.5rem 5%;
+}
+.bodyContainer header .italic {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #ee7a99;
 }
 .bodyContainer .img-container {
   display: flex;
