@@ -22,8 +22,15 @@ header {
 	padding: 1rem 5%;
 	font-size: 150%;
 
+	p {
+		margin: 2rem;
+	}
+
 	.sub-title {
-		margin: 1rem;
+		margin: 0.5rem;
+		font-style: italic;
+		font-size: 1.25rem;
+		color: #ee7a99;
 	}
 }
 

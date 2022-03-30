@@ -1,12 +1,10 @@
+.bodyContainer {
+  font-size: 0.9rem;
+}
 .bodyContainer header {
   background-color: #291f1e;
   color: #faf8f9;
   padding: 0.5rem 5%;
-}
-.bodyContainer header .italic {
-  font-size: 0.8rem;
-  font-style: italic;
-  color: #ee7a99;
 }
 .bodyContainer .img-container {
   display: flex;
@@ -14,17 +12,17 @@
   flex-wrap: wrap;
 }
 .bodyContainer .img-container img {
-  height: 15rem;
-  margin: 1rem;
+  height: 10rem;
+  margin: 2rem 1rem 0;
 }
-.bodyContainer .img-container img:hover {
-  border: 1px solid #291f1e;
+.bodyContainer .link-container {
+  margin: 2rem 0 1rem;
 }
 @media (min-width: 1300px) {
   .bodyContainer .img-container img {
-    height: 20rem;
+    height: 15rem;
     margin: 2.5rem;
   }
 }
 
-/*# sourceMappingURL=jsBasics.css.map */
+/*# sourceMappingURL=jsWebshop.css.map */
