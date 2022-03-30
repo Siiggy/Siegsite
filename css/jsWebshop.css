@@ -6,6 +6,9 @@
   color: #faf8f9;
   padding: 0.5rem 5%;
 }
+.bodyContainer p {
+  padding: 0 1rem;
+}
 .bodyContainer .img-container {
   display: flex;
   justify-content: center;
